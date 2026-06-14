@@ -1,0 +1,7224 @@
+public class Main {//class declaration
+
+   
+    } public static void main(String[] args) {//method or function Declaration
+        System.out.println("Hello World");
+        System.out.println("This is a Integer: "+7);
+        System.out.println("This is a Double: "+ 8.1);
+        System.out.println("This is a Character: "+'A');
+        System.out.println("This is a Character: "+'9');
+        System.out.println("This is a String: "+"A");
+        System.out.println("This is a Boolean: "+true);
+        System.out.println("This is a Boolean: "+false);
+        System.out.println("This is a float: "+6.7f);
+     System.out.println(" my name is ashutosh vyas " + 2504  +2146481054 );
+}
+
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+
+        byte b=10;
+        System.out.println(b);
+
+        short s=10;
+        System.out.println(s);
+
+        int i=10;
+        System.out.println(i);
+
+        long l=10;
+        System.out.println(l);
+
+        float f=10.8f;
+        System.out.println(f);
+
+        double d=10.7;
+        System.out.println(d);
+
+        boolean bo=true;
+        System.out.println(bo);
+
+        char ch='A';
+        System.out.println(ch);
+
+
+
+    }
+}
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        //byte b=128;
+        byte b1=127;
+        System.out.println(b1);
+    }
+}
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Range of Byte : "+ Byte.MIN_VALUE+ " to "+ Byte.MAX_VALUE);
+        System.out.println("Range of Short : "+ Short.MIN_VALUE+ " to "+ Short.MAX_VALUE);
+        System.out.println("Range of Integer : "+ Integer.MIN_VALUE+ " to "+ Integer.MAX_VALUE);
+        System.out.println("Range of Long : "+ Long.MIN_VALUE+ " to "+ Long.MAX_VALUE);
+        System.out.println("Range of Float : "+ Float.MIN_VALUE+ " to "+ Float.MAX_VALUE);
+        System.out.println("Range of Double : "+ Double.MIN_VALUE+ " to "+ Double.MAX_VALUE);
+        System.out.println("Range of Character : "+ (int)Character.MIN_VALUE+ " is "+ (int)Character.MAX_VALUE);
+        
+    }
+}
+
+
+public class Main {
+
+    static int x=90;//static variable
+
+    String schoolName="APS DK";//Instance Variable
+
+    public static void main(String[] args) {
+        int rollNo=3;//local variable
+        char grade='A';//local variable
+        System.out.println(rollNo);
+        System.out.println(grade);
+
+        Main obj=new Main();//Object creation
+        System.out.println(obj.schoolName);
+        System.out.println(x);
+
+    }
+}
+
+//Implicit type casting 
+public class Main {
+
+    public static void main(String[] args) {
+        int x=10;
+        double y=x;
+        System.out.println(y);
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        int x= 13;
+        if (x>0) {
+            System.out.println( x + " is positive than 10");
+            
+        } else { System.out.println( x + " is negative than 10" );
+            
+            
+        }
+    }
+}
+
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        int age=18;
+        if (age>=18) {
+            System.out.println("An Adult");
+            
+        }else{
+            System.out.println("Not an Adult");
+        }
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        int x=2;
+        if (x%2==0 ) {
+            System.out.println("is even");
+            
+        }else{
+            System.out.println("is odd");
+        }
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        int x=42;
+        if (x%2==0 && x%3==0 && x%7==0 ) {
+            System.out.println("is divisble by 2 3 and 7");
+            
+        }else{
+            System.out.println("is divible by 2 3 and 7");
+        }
+    }
+}
+
+//else if ladder
+public class Main {
+
+    public static void main(String[] args) {
+        int marks =94;
+        if (marks>=94){
+            System.out.println("Grade A ");
+        }else if (marks>=90) {
+            System.out.println("Grade B");
+        } else if(marks>=80) { 
+            System.out.println ("Grade C");
+        
+        }else {
+            System.out.println("tumne maa baap ka naam roshan kra");
+        }
+    }
+}
+
+
+//nested if else
+public class Main {
+
+    public static void main(String[] args) {
+        int marks = 43;
+           if (marks>=90){
+            System.out.println("you are eligible for star batch  ");
+            if (marks>=94) {
+            System.out.println("chalo project banate hai");
+}else {
+            System.out.println("thoda or padhlo phir entry milegi ");
+        }
+           }  else { 
+            System.out.println ("tum netflix dekho , life m padd k kuch nhi hota hai");
+            if (marks>=50){
+            System.out.println("galat sangat chodo , aur padlo padh sakte ho");
+
+        }else{
+            System.out.println(" ek kaam kr , kheti bari shuru kar de ");
+        }
+        
+        }
+
+
+     public class Main {
+
+   public static void main(String[] args) {
+      int marks=56;
+      if (marks>=90) {
+         System.out.println("you are eligible for star batch by amit sir");         
+      if (marks>=94) {
+         System.out.println("chalo project banate hai ");
+      } 
+      } else {
+         System.out.println(" Tum netflix dekho life main padd k kuch nhi hota ");
+         if (marks>=50) {
+          System.out.println("galat sangat choro , aur padh lo pad sakte ho ");
+         
+         } else {
+            System.out.println("ek kam kar , kheti bari shuru krde ");
+         }
+      }
+      
+   }
+}   
+         
+            
+    }
+        }
+    
+//switch
+public class Main {
+
+    public static void main(String[] args) {
+        int marks=60;
+        if (marks>=90) {
+            System.out.println("you are eligible for star batch");
+             if (marks>=94) {
+                System.out.println(" chalo project banate hai ");
+                
+                 }else{
+                    System.out.println("thoda or padh lo fir entery milegi");
+                }
+            } else {
+                System.out.println("tum netflix dekho , life mein padd k kuch nhi hota hai");
+            } if (marks>=50) {
+                System.out.println("galat sangat choro , or padlo pad sakte ho");
+
+                
+            }else{
+                System.out.println("ek kaam kar kheti bari shuru krde ");
+            }
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+    
+    int day =3;
+        switch (day) {
+            case 1:
+             System.out.println("monday");
+                
+                break;
+            case 2:
+             System.out.println("tuesday");
+                
+                break;
+            case 3:
+             System.out.println("wednesday");
+                
+                break;
+            case 4:
+             System.out.println("thursaday");
+                
+                break;
+            case 5:
+             System.out.println("friday");
+                
+                break;
+            case 6:
+             System.out.println("saturday");
+                
+                break;
+
+        }
+    }
+}
+
+
+// switch month
+public class Main {
+
+    public static void main(String[] args) {
+        int month=6;
+        switch (month) {
+            case 1:
+              System.out.println("january");
+                
+                break;
+            case 2:
+              System.out.println("feb");
+                 break;
+             case 3:
+              System.out.println("march");
+                
+                break;
+            case 4:
+              System.out.println("april");
+                
+                break;
+            case 5:
+              System.out.println("may");
+                
+                break;
+            case 6:
+              System.out.println("june");
+                
+                break;
+            case 7:
+              System.out.println("july");
+                
+                break;
+            case 8:
+              System.out.println("august");
+                
+                break;
+            case 9:
+              System.out.println("sept");
+                
+                break;
+            case 10:
+              System.out.println("oct");
+                
+                break;
+            case 11:
+              System.out.println("nov");
+                
+                break;
+            case 12:
+              System.out.println("dec");
+                
+                break;
+
+            default:
+                
+        }
+    }
+}
+
+
+// if else curly brackets problem  
+public class Main {
+
+   public static void main(String[] args) {
+      int marks = 90; // for marks = 90 line no. 8 and 12 both are printing
+      if (marks>=90) {
+          System.out.println("you are eligible for star batch ");
+          if (marks>=94) {
+         System.out.println("chalo project banate hai");
+         } else { 
+            System.out.println("thda or padh loo fir entry milegi");
+           }
+         } else { 
+            System.out.println("tum netflix dekho , padh kr kuch nhi hota ");
+          if (marks>=50) {
+            System.out.println("galat sangat chodo pad lo , pad sakte ho");
+         } else {
+            System.out.println("ek kaam kar , kheti bari shuru krde");
+         
+         }
+         
+      }
+   }
+}
+
+public class Main {
+
+   public static void main(String[] args) {
+      int age = 10;
+      if (age>=18) {
+         System.out.println( age +" eligible to vote");
+          } else {
+             System.out.println(age +" not eligible to vote");
+
+      }
+   }
+}
+
+      System.out.println("divisible by 5");
+
+import java.util.Scanner;
+public class Main {
+
+   public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+   System.out.println("enter a number");
+      int x = scanner.nextInt();
+      if (x%5==0 && x%8==0) {
+            System.out.println(" is divisible by 5 and 8 both");
+     } else {
+      System.out.println(" is not divisble by 5 and 8 both");
+   }
+}
+}
+
+public class Main {
+
+   public static void main(String[] args) {
+      char ch = 'j';
+      if (ch>='A' && ch<='Z') {
+         System.out.println( ch +" is upper case");
+      } else {
+         System.out.println( ch + " is not upper case");
+      }
+   }
+}
+
+public class Main {
+
+   public static void main(String[] args) {
+      int x = 25;
+      if (x%2==0) {
+         System.out.println(x + " is even number");
+      } else {
+         System.out.println(x + " is odd number");
+      }
+   }
+   
+}
+
+ public class Main {
+
+   public static void main(String[] args) {
+      int year=2004;
+      if ((year%4==0 && year%100!=0) || (year%400==0) ) {
+         System.out.println(year+" is leap year");
+      } else {
+         System.out.println( year+"  is not a leap year");
+      }
+   }
+}
+ 
+ public class Main {
+ public static void main(String[] args) {
+   int age = 70;
+   if (age<5) {
+      System.out.println(age + " is below free ticket ");
+     } else if (age<=12) {
+      System.out.println(age + " is children ticket");
+      }  else if (age<=60 ){
+       System.out.println( age + " is adult ticket");
+       } else {
+         System.out.println(age + " is senior citizen free ticket");
+       }
+ }
+}
+
+
+ /*51. Write a program that declares variables for a book's tle, author, number of pages, 
+price, and availability.*/
+ 
+ public class Main {
+
+   public static void main(String[] args) {
+      String Title = "the alchemist";
+      String  author = "paul caleo";
+      int numberofpages = 208;
+      double cost = 399.50;
+      boolean availibity = true;
+      System.out.println("Book title: " + Title);
+      System.out.println("Author:" + author );
+      System.out.println("number of pages: " + numberofpages);
+      System.out.println("Cost of book: " + cost );
+      System.out.println("Availible: " + availibity); 
+
+
+   }
+}
+
+
+/*52. Simulate an ATM where data types are used to represent PIN (int), balance (double), 
+isAc ve (boolean), and currency symbol (char). */
+//ATM
+import java.util.Scanner;
+public class Main {
+
+   public static void main(String[] args) {
+      
+      int storedpin = 1234; //STORING PIN
+      double balance = 10549; //STORING BANK BALANCE
+      boolean isactive = true; //ACTIVATION STATUS
+      String  currencysymbol = "Rs."; //STORING CURRENCY SYMBOL
+
+Scanner scanner = new Scanner (System.in); // TAKING INPUT
+   System.out.println("enter your 4-digit PIN:");
+   int enteredpin = scanner.nextInt();
+     if (!isactive) {
+         System.out.println("Account is inactive.Please contact to your bank.");
+       } else if (enteredpin == storedpin) {
+         System.out.println("PIN verified √ ");
+         System.out.println("Your current balance is: " + currencysymbol + balance);
+      } else {
+         System.out.println("incorrect PIN X . Access denied.");
+      }
+       scanner.close();
+
+       
+
+   }
+}
+
+//FOR LOOP
+public class Main {
+
+   public static void main(String[] args) {
+      for(int i=1; i<=10 ; i++){
+       
+         System.out.print(" Hello World");
+      }
+   }
+}
+
+/* 61. Write a program that declares variables of all Java primi ve data types, assigns 
+  values, and prints them with proper single-line and mul-line comments.   */
+public class Main {
+
+  public static void main(String[] args) {
+     
+  // assigning values
+  Byte b = 100;
+  short s = 20000;
+  int i = 100000;
+  long l= 1000000000000000L;
+   float f= 25.123456789f;
+   double d = 25.34;
+   char c = 'A';
+   boolean  bool= true ;
+   
+
+  //  now print all the variables with appropriate labels
+ System.out.println("byte value: " + b );
+ System.out.println("short value: " + s);
+ System.out.println("int value: " + i );
+ System.out.println("long  value: " + l );
+ System.out.println("floatvalue: " + f );
+ System.out.println("double value: " + d );
+ System.out.println("character value: " + c );
+ System.out.println("boolean value: " + bool );
+  }
+}
+
+
+//for loop
+public class Main {
+
+  public static void main(String[] args) {
+      for ( int i = 1 ; i<=1000; i++)
+        if (i%5==0 && i%7==0) {
+         System.out.println( "number divisble by 5 and 7 both "+ i + " ");
+        
+      }
+    }
+  }
+
+//while loop
+public class Main {
+
+  public static void main(String[] args) {
+    int i = 1 ;
+    while (i<=1000) {
+      if (i%5==0 && i%7==0) {
+        System.out.print( i + "");
+        
+      } i++;
+      
+    }
+  }
+}
+
+// do while loop
+public class Main {
+
+  public static void main(String[] args) {
+     int i = 1;
+     do {
+      if (i%5==0 || i%7==0) {
+              System.out.print(i + " ");
+      }
+      i++;
+    } while (i<=100);
+  }
+}
+
+//test case
+import java.util.Scanner;
+public class Main {
+
+  public static void main(String[] args) {
+    
+    Scanner scanner = new Scanner(System.in);
+      System.out.println(" enter number: ");
+       double num1=scanner.nextDouble();
+       double num2=scanner.nextDouble();
+       double num3=scanner.nextDouble();
+                   
+       double largest=num1;
+       if (num2>largest) {
+        largest=num2;
+      
+      }
+     if (num3>largest) {
+        largest=num3;
+      
+      }
+      System.out.println("The largest vnumber is" + largest);
+
+  }
+}
+
+import java.util.Scanner;
+public class Main {
+
+  public static void main(String[] args) {
+    
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println(" enter number: ");
+
+       double num1=scanner.nextDouble();
+       double num2=scanner.nextDouble();
+       double num3=scanner.nextDouble();
+                   
+    if (num1>num2 && num1>num3) {
+      System.out.println(" The largest number : "  +num1);
+ 
+    }else if (num2>num1 && num2>num3) {
+    System.out.println("the largest number:" +num2);      
+   
+    }else {
+     System.out.println("the largest number:" + num3);
+      }
+    }
+  }
+
+public class Main {
+
+  public static void main(String[] args) {
+     int evensum =0;
+    int oddsum= 0;
+     for (int  i=1; i<=100;i++){
+       
+      if (i%2!=0) {
+               evensum+=i;
+     } else {
+               oddsum+=i;
+        }
+
+    } 
+           System.out.println(oddsum-evensum);
+
+      }
+  }
+
+ //factorial by for loop 
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner ( System.in);
+    int num =sc.nextInt();
+    int factorial =1;
+    
+    for ( int i = 1; i<= num; i++){
+       factorial = factorial*i;
+       System.out.println(i + "-->" + factorial);
+    }
+    System.out.println("factorial of " + num + " is " + factorial);
+  }
+}
+
+  // Factorial By while Loop
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner ( System.in);
+int num =sc.nextInt();
+    int factorial =1;
+    int i = 1;
+    while (i <=num) {
+        factorial = factorial*i;
+        i++;
+    }       
+
+    System.out.println("factorial of " + num + " is " + factorial);
+  }
+}
+
+  //  factorial By  Dowhile Loop
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner ( System.in);
+    int num =sc.nextInt();
+    int factorial =1;
+    int i = 1;
+   do {
+  factorial = factorial*i;
+  i++;
+} while (i<=num);
+    System.out.println("factorial of " + num + " is " + factorial);
+  }
+}
+
+// number of digits in an integer ussing for loop
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println(" enter number");
+
+    int num = sc.nextInt();
+    int count = 0;
+
+    for (int i = num; i != 0; i /= 10) {
+      count++;
+      System.out.println("count is " + count);
+    }
+
+    System.out.println("The number of digits in " + num + " is " + count);
+  }
+}
+
+
+// Reverse a number 
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println(" enter number");
+
+    int num = sc.nextInt();
+    int reversed = 0;
+
+    for (int i = num; i != 0; i /= 10) {
+      int digit = i % 10;
+      reversed = reversed * 10 + digit;
+    }
+    System.out.println("The number of digits in " + num + " is " + reversed);
+
+  }
+
+}
+
+// palindrome a number 
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println(" enter number");
+
+    int num = sc.nextInt();
+    int reversed = 0;
+   
+    for ( int i = num; i != 0; i /= 10) {
+      int digit = i % 10;
+      reversed = reversed * 10 + digit;
+    }
+      if (num==reversed) {
+        System.out.println( num + " no. is palindrome ");
+      } else {
+        System.out.println(num + " no. is not palindrome ");
+      }
+    }
+    
+
+  }
+
+//prime no. or not 
+public class Main {
+
+    public static void main(String[] args) {
+        int n = 9;
+        boolean isprime = true;
+        for(int i = 1; i<= n / 2;i++){
+            if ( n % i == 0 ) {
+                isprime = false;
+                break;
+            }
+        }
+         if (isprime) {
+            System.out.println(i + " is a prime no.");
+         } else{
+            System.out.println(i + "is composite no.");
+                 }
+
+            }
+        
+    }
+
+
+//STRING INPUT
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("enter a string");
+
+        String str = sc.nextLine();
+        System.out.println(str);
+    }
+}
+
+// String Vowel count consonant count
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+          System.out.println("please enter a sentence : ");
+           
+         String sentence = input.nextLine();
+         sentence = sentence.toLowerCase();
+
+
+
+          int Vowelcount=0;
+          int Consonantcount=0;
+
+          for (int i = 0; i < sentence.length(); i++) {
+            char c = sentence.charAt(i);
+            if (c>='a' && c<='z') {
+                if (c=='a' || c=='e' || c=='i' || c=='o' || c=='u') {
+                    Vowelcount++;
+                } else {
+                    Consonantcount++;
+                }
+            }
+          }
+           System.out.println(sentence.length());
+          System.out.println("no. of vowel : " + Vowelcount);
+          System.out.println("no. of consonant : " + Consonantcount);
+
+    }
+}
+
+// NESTED FOR LOOP WITH BREAK
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <=3; i++) {
+            for (int j = 1; j <=3; j++) {
+                if (i==2 && j==2) {
+                    break;
+                }
+                System.out.println(i + " " + j);
+            }
+        }
+    }
+}
+
+// CONTINUE 
+public class Main {
+
+    public static void main(String[] args) {
+        for (int i = 1; i <=20; i++) {
+            if (i==10) {
+                continue;
+            }
+            System.out.println(i + " ");
+        }
+    }
+}
+
+//while loop palindrome
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+         Scanner sc = new Scanner ( System.in);
+          System.out.println(" ENTER A NO.");
+         int num = sc.nextInt();
+         
+         int originalnumber = num;
+         int reversenumber = 0;
+
+         while (num!=0) {
+            int digit = num%10;
+             reversenumber = reversenumber*10 + digit;
+             num = num/10;
+
+
+         }
+         if (originalnumber==reversenumber) {
+            System.out.println( originalnumber + " is palindrome");
+         } else{
+            System.out.println(originalnumber + " is not palindrome");
+         }
+
+         }
+
+    }
+
+    // FOR LOOP + WHILE LOOP
+public class Main {
+
+   public static void main(String[] args) {
+      
+      for (int num = 0; num <=1000; num++) {
+         int originalnum = num;
+         int reversenum = 0 ;
+         int temp = num ;
+
+         while (temp !=0) {
+            
+            int digit = temp % 10;
+            reversenum = reversenum * 10 + digit;
+            temp = temp /10;
+
+         }
+         if (originalnum==reversenum) {
+            System.out.println( originalnum +" ");
+         }
+
+      }
+   }
+}
+
+
+//METHOD
+public class Main {
+
+    public static void display() {//Method declaration
+        System.out.println("Hello World");//Method definition
+    }
+
+    public static void main(String[] args) {
+        display();//Method calling
+        System.out.println("Hey Ashutosh");
+    }
+}
+
+
+//SQUARE OF A NUMBER  using user input
+import java.util.Scanner;
+
+public class Main {
+
+    public static void square(int num) {
+    int square = num*num ;
+    System.out.println("The Square is : " + square);
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number : ");
+        int num = sc.nextInt();
+
+        square(num);
+    }
+}
+
+
+//SQUARE OF A NUMBER  using user input
+import java.util.Scanner;
+
+public class Main {
+
+    public static int square(int num) {
+    int square = num*num;
+    
+    return square;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number : ");
+        int num = sc.nextInt();
+        int result = square(num);
+        System.out.println("The Square is : " +result);
+    }
+}
+
+
+//SQUARE OF A NUMBER  using input and return type is integer
+import java.util.Scanner;
+
+public class Main {
+
+    public static boolean isEven (int num) {
+    return num%2==0;
+    
+    
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number : ");
+        int num = sc.nextInt();
+        boolean result = isEven(num);
+
+        if (result) {
+            System.out.println("it is even");
+        } else {
+            System.out.println(" it is odd ");
+        }
+    }
+}
+
+//METHOD Reverse 
+import java.util.Scanner;
+
+public class Main {
+
+    public static void Reverse (int temp , int reverse ) {
+        
+        while (temp!=0) {
+         int digit = temp%10;
+         reverse = reverse*10+digit;
+         temp/=10;
+        }
+        System.out.println(reverse);
+         
+        
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number : ");
+        int num = sc.nextInt();
+        int reverse=0;
+        int temp = num;
+         
+        Reverse(temp, reverse);
+
+        sc.close();
+
+    }
+}
+
+//METHOD USING differnt parameters
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static int multiplication ( int x, int y) {
+        int multiply = x*y;
+        return multiply;
+
+    }
+    public static void main(String[] args) {
+    System.out.println("enter the value of X");
+        
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        System.out.println("enter the value of Y");
+        int y = sc.nextInt();
+
+        int multiply = x*y;
+        System.out.println("multiplication of X and Y is : " + multiply);
+    }
+}
+
+//FACTORIAL of a Number using RECURSION
+
+public class Main {
+
+    public static int factorial(int number) {
+        if (number == 0) {// Base case
+            return 1;
+        }
+        return number * factorial(number - 1);// Recursive Case
+    }
+
+    public static void main(String[] args) {
+        int number = 5;
+        int result = factorial(number);
+        System.out.println("The factorial of " + number + " is " + result);
+    }
+}
+
+//Sum of digits of a number using recursion
+
+public class Main {
+    public static int sumOfDigits(int n){
+        if (n==0) {
+            return 0;
+            
+        }
+        return (n%10)+ sumOfDigits(n/10);
+
+    }
+
+    public static void main(String[] args) {
+        int number=1234;
+        int result=sumOfDigits(number);
+        System.out.println("Sum is: "+ result);
+        
+    }
+}
+
+---------------------------------------------------
+//OOPS 
+//Implemenatation of a class
+public class Student {
+ int roll;//0 = default value
+ Integer marks;//null = default value
+ String name;//null = default value
+ boolean passed;//false = default value
+
+ public static void main(String[] args) {
+    Student obj=new Student();//Object Creation
+    System.out.println("Roll number is : " +  obj.roll);
+    System.out.println(" Name is : " + obj.name);
+    System.out.println(" Marks is : " + obj.marks);
+    System.out.println("passed : " + obj.passed);
+    System.out.println(Integer.max(56,78));
+   }
+}
+------------------------------------------------
+//Direct  initialization : acha tarika nhi hai
+public class Student {
+ int roll = 45;
+ Integer marks = 87;
+ String name = "ashutosh";
+ boolean passed = true;
+
+ public static void main(String[] args) {
+    Student obj=new Student();//Object Creation
+    System.out.println("Roll number is : " +  obj.roll);
+    System.out.println(" Name is : " + obj.name);
+    System.out.println(" Marks is : " + obj.marks);
+    System.out.println("passed : " + obj.passed);
+    System.out.println(Integer.max(56,78));
+   }
+}
+-------------------------------------------------------
+
+ //Initilisation through Method:  kharab tarika h kueki m toh confuse ho jaunga name1 kya h and name kya h
+public class Student {
+
+    public String name;
+    public int age;
+
+    public void initilise(String name1,int age1){
+        name=name1;
+        age=age1;
+    }
+    public void display(){
+        System.out.println("Name: "+ name);
+        System.out.println("Age: "+  age);
+    }
+
+    public static void main(String[] args) {
+        Student s1=new Student();
+        s1.initilise("Amit",40);
+        s1.display();
+        
+    }
+}
+-------------------------------------------------------
+//Initilisation through Method:  accha tarika
+public class Student {
+
+    public String name;
+    public int age;
+
+    public void initilise(String name,int age){
+        this.name=name;
+        this.age=age;
+    }
+    public void display(){
+        System.out.println("Name: "+ name);
+        System.out.println("Age: "+  age);
+    }
+
+    public static void main(String[] args) {
+        Student s1=new Student();
+        s1.initilise("Amit",40);
+        s1.display();
+        
+    }
+}
+
+----------------------------------------------------
+/* Fibonacci Sequence using Sliding Window Technique */
+
+public class Main {
+
+    public static void main(String[] args) {
+        int n = 10;
+
+        int first = 0;
+        int second = 1;
+
+        System.out.println(" Fibonacci sequence is : ");
+        for (int i = 1; i <= n; i++) {
+            System.out.print(first + " ");
+            int next = first + second;
+            first = second;
+            second = next;
+
+        }
+
+    }
+}
+-------------------------------------------------
+//Tribonacci using Sliding Window Technique 
+
+public class Main {
+
+    public static void Tribonacci(int n) {
+
+        int first = 0, second = 1, third = 1;
+
+        for (int i = 1; i <= n; i++) {
+
+            System.out.print(first + " ");
+
+            int next = first + second + third;
+            first = second;
+            second = third;
+            third = next;
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        int n = 10;
+
+        Tribonacci(n);
+
+    }
+}
+
+*******************************************************
+CONSTRUCTOR :-                                         
+1. CONSTRUCTOR is the best way to initialize values.
+2. CONSTRUCTOR ko call karne ki jarurat nhi hai.
+3. CONSTRUCTOR do not have a return type.
+4. CONSTRUCTOR name is name of the class.
+
+*******************************************************
+
+1. Default CONSTRUCTOR
+2. No Argument CONSTRUCTOR
+3. Parameterized CONSTRUCTOR
+4. Copy CONSTRUCTOR
+
+*****************************************************
+//Default Constructor
+
+public class Student {
+    
+    int rollNo;
+    public static void main(String[] args) {
+        Student student = new Student();
+        System.out.println(" Default Value is " + student.rollNo);
+    }
+}
+-----------------------------------------------------
+//No args Constructor
+
+public class Student {
+    
+    int rollNo;
+    Student(){
+        rollNo=1;
+        System.out.println("The roll number is called ");
+    }
+    public static void main(String[] args) {
+        Student student = new Student();
+        System.out.println(" The Roll Number is " + student.rollNo);
+    }
+}
+--------------------------------------------------------
+// Parameterized Constructor
+public class Main {
+
+    int length;
+    int width;
+
+    Main(int length, int width){
+      this.length = length;
+      this.width = width;
+
+    }
+
+    public void area(){
+        int area = length*width;
+        System.out.println("the area is : "+ area );
+
+    }
+    public static void main(String[] args) {
+        Main m1 = new Main(5,6);
+        m1.area();
+    }
+}
+---------------------------------------------------------
+//Swapping of Two Numbers
+
+public class Main {
+
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 8;
+
+        System.out.println(" the value of x before swapping " + x);
+        System.out.println(" the value of y before swapping " + y);
+
+        int temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println(" the value of x after swapping " + x);
+        System.out.println(" the value of y after swapping " + y);
+
+    }
+}
+--------------------------------------------
+// CONSTRUCTOR OVERLOADING //
+public class Main {
+
+    int a;
+    String b;
+
+    // no argument Constructor
+    Main() {
+        a = 0;
+        b = "unknown";
+    }
+
+    // parameterized Constructor
+    Main(int a) {
+        this.a = a;
+        b = "unknown";
+    }
+
+    // parameterized Constructor
+    Main(String b) {
+        a = 0;
+        this.b = b;
+    }
+
+    // parameterized Constructor
+    Main(int a, String b) {
+        this.a = a;
+        this.b = b;
+    }
+    
+    // parameterized Constructor
+    Main( String b,int a) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public void display(){
+System.out.println("a is: " + a + " b is: "+ b);
+
+    }
+
+    public static void main(String[] args) {
+        Main m1 = new Main();
+        m1.display();
+
+        Main m2 = new Main(6);
+        m2.display();
+
+        Main m3= new Main("ashutosh");
+        m3.display();
+
+        Main m4 = new Main(56,"tanush");
+        m4.display();
+
+        Main m5 = new Main("khushi", 78);
+        m5.display();
+        
+    }
+
+}
+-----------------------------------------------
+//COPY CONSTRUCTOR
+
+public class Main {
+
+    int id;
+    String name;
+
+    Main(int id, String name) {
+        this.id = id;
+        this.name = name;
+
+    }
+
+    // Copy constructor
+    Main(Main original) {
+        this.id = original.id;
+        this.name = original.name;
+
+    }
+
+    public void display() {
+        System.out.println("Id is: " + id + "Name is: " + name);
+    }
+
+    public static void main(String[] args) {
+        Main obj1 = new Main(3455, "ashutosh");
+        Main obj2 = new Main(obj1);
+
+        obj1.display();
+        obj2.display();
+
+    }
+
+}
+----------------------------------------------------
+// Static block vs Constructor
+
+public class Main {
+
+    static {
+        System.out.println("Static block is excuted first and only once");
+    }
+
+    Main() {
+        System.out.println(" Contructor is called");
+
+    }
+
+    public static void main(String[] args) {
+        Main obj1 = new Main();
+        Main obj2 = new Main();
+        Main obj3 = new Main();
+    }
+
+}
+----------------------------------------------------------
+//Constructor Chaining 
+
+public class Person {
+    String name;
+    int age;
+    String city;
+
+    Person() {
+        this("Unknown", 0);
+        System.out.println(" No args constructor got called");
+    }
+
+    Person(String name, int age) {
+        this("Unknown", 0, "Unknown");
+        System.out.println(" 2nd Parameterized constructor got called");
+    }
+
+    Person(String name, int age, String city) {
+        this.name = name;
+        this.city = city;
+        this.age = age;
+
+        System.out.println(" 3rd Parameterized constructor got called");
+    }
+
+    public void display() {
+        System.out.println("Name is " + name);
+        System.out.println("City is " + city);
+        System.out.println("Age is " + age);
+
+    }
+
+    public static void main(String[] args) {
+        Person p1 = new Person();
+        p1.display();
+
+        Person p2 = new Person("Amit", 45);
+        p2.display();
+
+        Person p3 = new Person("Radhika", 34, "Bhopal");
+        p3.display();
+
+    }
+}
+-----------------------------------------------------
+//Public Access Modifier
+public class PubliceExample {
+    public String message;
+
+    public PublicExample(){
+           message = "This is a message"
+
+    }
+
+    public void display() {
+        System.out.println("Message is : " + message);
+    }
+
+    public static void main(String[] args) {
+        PubliceExample obj = new PublicExample();
+        obj.message = "Hey world";
+        obj.display();
+    }
+
+}
+---------------------------------------------------------
+//Public Access Modifier : in the same package different files class
+class PublicExample {
+    public String message;
+
+    public PublicExample() {
+        message = "This is a message";
+    }
+
+    public void display() {
+        System.out.println("Message is : " + message);
+    }
+
+}
+
+
+//same package another class
+public class InnerPublicExample {
+    public static void main(String[] args) {
+        PublicExample obj = new PublicExample();
+        obj.message = "Hey world";
+        obj.display();
+    }
+
+}
+
+---------------------------------------------------------
+//Public Constructor
+public class PublicConstructorExample {
+    public int number;
+
+    public PublicConstructorExample(int number) {
+        this.number = number;
+
+    }
+
+    public void display() {
+        System.out.println(" This is a number : " + number);
+    }
+
+    public static void main(String[] args) {
+        PublicConstructorExample obj = new PublicConstructorExample(78);
+        obj.display();
+    }
+
+}
+-------------------------------------------------------------
+//Public Constructor (with two class)
+class PublicConstructorExample {
+    public int number;
+
+    public PublicConstructorExample(int number) {
+        this.number = number;
+
+    }
+
+    public void display() {
+        System.out.println(" This is a number : " + number);
+    }
+
+}
+
+public class InnerPublicConstructorExample {
+
+    public static void main(String[] args) {
+        PublicConstructorExample obj = new PublicConstructorExample(78);
+        obj.display();
+    }
+}
+-------------------------------------------------------
+//Private Access Modifer
+
+class Person {
+
+    private String name;
+    private int age;
+
+    public Person(String name, int age) {
+        this.age = age;
+        this.name = name;
+
+    }
+
+    public void display() {
+        System.out.println("The name is : " + name);
+        System.out.println("Age is : " + age);
+
+    }
+
+    private void secretMethod() {
+        System.out.println("This is a secret Method");
+    }
+
+    public void callSecret() {
+        secretMethod();
+    }
+
+}
+
+public class InnerPerson {
+
+    public static void main(String[] args) {
+        Person p = new Person("Ashutosh", 21);
+        p.display();
+        p.callSecret();
+
+        // p.secrestMethod();
+        // p.name = "Ashutosh";
+    }
+
+}
+---------------------------------------------------------------
+//Bank Account Design
+//Getter Setter Method
+
+class BankAccount {
+    private double balance;
+
+    public BankAccount(double balance) {
+        this.balance = balance;
+
+    }
+
+    // getter method
+    public double getBalance() {
+        return balance;
+
+    }
+
+    // setter method
+    public void depoist(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        } else {
+            System.out.println("Invalid +deposit , enter money more than 0 ");
+        }
+
+    }
+
+    public void withdraw(double amount) {
+        if (amount > 0 && balance >= amount) {
+            balance -= amount;
+        } else {
+            System.out.println("Naukri karne ki jarurat h");
+        }
+
+    }
+
+}
+
+public class InnerBankAccount {
+
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount(1000);
+
+        System.out.println("Current Balance is : " + account.getBalance());
+        account.depoist(5000);
+        System.out.println("After Deposit Current Balance is : " + account.getBalance());
+        account.withdraw(500);
+        System.out.println("After Withdraw Current Balance is : " + account.getBalance());
+
+        account.withdraw(50000);
+        System.out.println("After Withdraw Current Balance is : " + account.getBalance());
+
+    }
+
+}
+---------------------------------------------------------------------------------------
+//Private Constructor : Singleton or Restricted Instantiation
+ 
+class Utility {
+
+    private Utility(){
+        System.out.println("This is an Utility Constructor");
+    }
+
+    public static int square (int x){
+        return x*x;
+        }
+
+        public static void display (){
+            System.out.println("Hello from Utility Class");
+        }
+    
+}
+public class InnerUtility {
+     public static void main(String[] args) {
+        //Utility u = new Utility ();
+        System.out.println("Square of 4: "+ Utility.square(4));
+            Utility.display(); 
+    }
+    
+}
+------------------------------------------------------------
+ class Car {
+    private String engineStatus = "off";
+
+    public void startCar() {
+        turnOnEngine();
+        System.out.println("Car Started ");
+
+    }
+
+    private void turnOnEngine() {
+        engineStatus = "on";
+        System.out.println("Engine Started");
+    }
+
+}
+
+public class InnerCar {
+    public static void main(String[] args) {
+        Car c= new Car();
+        c.startCar();
+
+        //c.turnOnEngine();
+    }
+}
+-------------------------------------------------------
+class Employee {
+    private String name;
+    private double salary;
+
+    public Employee(String name, double salary) {
+        this.name = name;
+        this.salary = salary;
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        if (salary >= 0) {
+            this.salary = salary;
+
+        } else {
+            System.out.println("Salary has to be grater than 0");
+        }
+    }
+
+    public void display() {
+        System.out.println("Name is : " + name);
+        System.out.println("Salary is : " + salary);
+    }
+
+    public static void main(String[] args) {
+        Employee employee = new Employee("Amit", 300000);
+        System.out.println("Name using getter: " + employee.getName());
+        System.out.println("Salary using getter: " + employee.getSalary());
+
+        employee.setName("Yuvraj");
+        employee.setSalary(534785623);
+
+        employee.display();
+
+    }
+
+}
+--------------------------------------------------------
+//Single Inheritance
+
+//Parent class
+class Animal{
+    protected String name="Animal";
+    public void makeSound(){
+        System.out.println("Animal Sound...");
+    }
+
+}
+
+//Child class
+class Dog extends Animal{
+    
+    public void display(){
+        System.out.println("Dog .."+ name);
+        makeSound();
+
+    }
+
+    public static void main(String[] args) {
+        Dog d=new Dog();
+        d.display();
+    }
+
+}
+--------------------------------------------------------------
+//Multilevel Inheritance 
+class GrandParent {
+    protected String name = "Vyas Family ";
+
+    public void showFamily() {
+        System.out.println("GrandParents Family");
+    }
+
+}
+
+class Parent extends GrandParent {
+    public void showParent() {
+        System.out.println("This is Prent Family");
+    }
+
+}
+
+public class Child extends Parent{
+
+    public void showChild(){
+        System.out.println("Childs Family");
+    }
+
+    public static void main(String[] args) {
+        Child c = new Child();
+        c.showChild();
+        c.showFamily();
+        c.showParent();
+        System.out.println("Family name is : "+ c.name);
+    }
+}
+------------------------------------------------------------
+//Hierarchial Inheritance 
+
+class Vehicle {
+
+    protected void start() {
+        System.out.println("Vehicle Started");
+    }
+
+}
+
+class Car extends Vehicle {
+    protected void carStart() {
+        System.out.println("Car Started");
+    }
+}
+
+class Bike extends Vehicle {
+    protected void bikeStart() {
+        System.out.println("Bike Started");
+    }
+}
+
+public class HierarchialInhertiance {
+
+    public static void main(String[] args) {
+        Car c = new Car();
+        c.carStart();
+        c.start();
+
+        Bike b = new Bike();
+        b.bikeStart();
+        b.start();
+
+
+    }
+}
+--------------------------------------------------------
+//Super Keyword: use in Constructor calling
+
+class Animal {
+    Animal(String type) {
+        System.out.println("Animal Constructor got called " + type);
+    }
+}
+
+public class Cat extends Animal {
+    Cat() {
+        super("Dog");
+        System.out.println("Cat Constructor got called");
+    }
+
+    public static void main(String[] args) {
+        Cat c = new Cat();
+    }
+}
+-----------------------------------------------
+//Super Keyword: use in Method calling
+
+class Animal {
+  public void makeSound() {
+        System.out.println("Animal Sound ");
+    }
+}
+
+public class Cat extends Animal {
+  public void makeSound() {
+       super.makeSound();
+        System.out.println("Cat sounds: Meoww");
+    }
+
+    public static void main(String[] args) {
+        Cat c = new Cat();
+        c.makeSound();
+    }
+}
+-----------------------------------------------------
+//Super Keyword: use in superclass field
+//Polymorphism OverRidding 
+
+class Animal {
+
+    String name = "Animal Name";
+
+    public void makeSound() {
+        System.out.println("Animal Sound ");
+    }
+}
+
+public class Cat extends Animal {
+    String name = "Simba";
+
+    public void makeSound() {
+        System.out.println("Cat sounds: Meoww");
+        System.out.println("Cat name is :" + name);
+        System.out.println("Animal name is : " + super.name);
+    }
+
+    public static void main(String[] args) {
+        Cat c = new Cat();
+        c.makeSound();
+    }
+}
+------------------------------------------------------
+class Animal {
+    protected String name = " Tiger";
+
+    protected void sound() {
+        System.out.println("Tiger sound is Bhoww Bhoww");
+    }
+}
+
+public class Testprotected {
+    public static void main(String[] args) {
+        Animal a = new Animal();
+        System.out.println("Animal name is : " + a.name);
+        a.sound();
+    }
+
+}
+----------------------------------------------
+class Animal {
+    protected String name = " Tiger";
+
+    protected void sound() {
+        System.out.println("Tiger sound is Bhoww Bhoww");
+    }
+}
+
+class Cat extends Animal {
+    void makeSound() {
+        System.out.println("Meowsss");
+        sound();
+    }
+}
+
+public class Testprotected {
+    public static void main(String[] args) {
+        Animal a = new Animal();
+        System.out.println("Animal name is : " + a.name);
+        a.sound();
+
+        Cat c = new Cat();
+        c.makeSound();
+
+    }
+
+}
+----------------------------------------------------
+class Animal {
+    protected String name = " Tiger";
+
+    protected Animal() {
+        System.out.println("Animal Constructor got called");
+    }
+
+    protected void sound() {
+        System.out.println("Tiger sound is Bhoww Bhoww");
+    }
+}
+
+class Cat extends Animal {
+    public Cat() {
+        super();
+        System.out.println(" Cat Constructor called");
+    }
+
+    void makeSound() {
+        System.out.println("Meowsss");
+        sound();
+    }
+}
+
+public class Testprotected {
+    public static void main(String[] args) {
+        Animal a = new Animal();
+        System.out.println("Animal name is : " + a.name);
+        a.sound();
+
+        Cat c = new Cat();
+        c.makeSound();
+
+    }
+
+}
+-------------------------------------------------
+// Compile Time Polymorphism : Method OVERLOADING
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+
+    }
+
+    public static void main(String[] args) {
+        Calculator c = new Calculator();
+        System.out.println("The sum is : " + c.add(23, 45));
+        System.out.println("The sum is : " + c.add(23, 45 + 65));
+        System.out.println("The sum is : " + c.add(23.7, 45.5));
+    }
+}
+-----------------------------------------------------
+//Runtime Polymorphism: Method Overriding
+class Animal {
+    void makeSound() {
+        System.out.println("Animal Sound");
+    }
+}
+
+class Dog extends Animal {
+
+    @Override
+    void makeSound() {
+        System.out.println("Bhoww Bhowww");
+        super.makeSound();
+
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    void makeSound() {
+        System.out.println("Meowwwws");
+        super.makeSound();
+
+    }
+}
+
+public class TestPolymorphism {
+
+    public static void main(String[] args) {
+        Animal a;
+        a = new Dog();
+        a.makeSound();
+
+        a = new Cat();
+        a.makeSound();
+
+    }
+
+}
+-------------------------------------------------------
+//Polymorphism with Array and Loops
+
+class Shape {
+    void draw() {
+        System.out.println("Drawing a Shape");
+    }
+}
+
+class Circle extends Shape {
+    int x = 10;
+    String str = "Circle";
+
+    @Override
+    void draw() {
+        System.out.println("Drawing a Circle");
+    }
+}
+
+class Square extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a square");
+    }
+}
+
+public class TestPolymorphism {
+
+    public static void main(String[] args) {
+        Shape[] shapes = new Shape[2];
+        shapes[0] = new Circle();
+        shapes[1] = new Square();
+
+        for (Shape s : shapes) {
+            s.draw();
+        }
+    }
+}
+--------------------------------------------------------
+// Final Keyword
+// The final Keyword is used to prevent Modification
+// i.) final Variable 
+// ii.) final Method 
+// iii.) final class
+// iv.) final parameter
+---------------------------------------------------------
+//Final keyword : in variable
+public class Circle {
+    final double PI = 3.14;
+    double radius;
+
+    Circle(double radius) {
+        this.radius = radius;
+        // PI=6.7
+    }
+
+    double area() {
+        return PI * radius * radius;
+    }
+
+    public static void main(String[] args) {
+        Circle c = new Circle(4);
+        System.out.println("Area is : " + c.area());
+    }
+
+}
+----------------------------------------------------------
+//Final Keyword :in method(final method can not be overridden)
+class Circle {
+   final double PI = 3.14;
+    double radius;
+
+    final public double area() {
+        return PI * radius * radius;
+    }
+
+}
+class chotaCircle extends Circle{
+    // public double area() {
+    //     return PI * radius * radius;
+    // }
+
+    
+}
+
+public class InnerCircle {
+    public static void main(String[] args) {
+        Circle c = new Circle();
+        System.out.println("Area is : " + c.area());
+
+    }
+
+}
+
+-------------------------------------------------------------
+//Final Keyword :in class(final class can not be extended)
+final class Circle {
+   final double PI = 3.14;
+    double radius;
+
+    final public double area() {
+        return PI * radius * radius;
+    }
+
+}
+class chotaCircle extends Circle{
+    // public double area() {
+    //     return PI * radius * radius;
+    // }
+    void area1(){
+        System.out.println("Area1");
+    }
+    
+}
+
+public class InnerCircle {
+    public static void main(String[] args) {
+        Circle c = new Circle();
+        System.out.println("Area is : " + c.area());
+
+    }
+
+}
+
+--------------------------------------------------------------------------
+//Final Keyword :in Object Reference(final class can not be reinatilized)
+ class Circle {
+   final double PI = 3.14;
+    double radius;
+
+    final public double area() {
+        return PI * radius * radius;
+    }
+
+}
+class chotaCircle extends Circle{
+    // public double area() {
+    //     return PI * radius * radius;
+    // }
+    void area1(){
+        System.out.println("Area1");
+    }
+    
+}
+
+public class InnerCircle {
+    public static void main(String[] args) {
+        final  Circle c = new Circle();
+        System.out.println("Area is : " + c.area());
+
+        //c=new Circle();//you can not reassign object
+
+    }
+
+}
+
+----------------------------------------------------------
+//Static Keyword in variable
+
+public class Student {
+    int rollNo;
+    String name;
+    static String college = "Army Institute of Technology";
+
+    Student(int rollNo, String name) {
+        this.rollNo = rollNo;
+        this.name = name;
+
+    }
+
+    void display() {
+        System.out.println("The roll number is : " + rollNo);
+        System.out.println("The name is :" + name);
+        System.out.println("The College is :" + college);
+
+    }
+
+    public static void main(String[] args) {
+        Student obj = new Student(1, "Amit");
+        Student obj1 = new Student(2, "Priyanshu");
+        Student.college = "IIT";
+        obj.display();
+        obj1.display();
+    }
+
+}
+-------------------------------------
+//Static Keyword
+
+public class Main {
+    /* static */ int count = 0;
+
+    Main() {
+        count++;
+        System.out.println(count);
+    }
+
+    public static void main(String[] args) {
+        Main m1 = new Main();
+        Main m2 = new Main();
+        Main m3 = new Main();
+        Main m4 = new Main();
+        Main m5 = new Main();
+
+    }
+
+}
+--------------------------------------------------------
+//EncapSulation
+class Employee {
+    // Private variables - cannot be accessed directly from outside the class
+    private String name;
+    private int age;
+
+    // Public getter method for name
+    public String getName() {
+        return name;
+    }
+
+    // Public setter method for name
+    public void setName(String newName) {
+        name = newName;
+    }
+
+    // Public getter method for age
+    public int getAge() {
+        return age;
+    }
+
+    // Public setter method for age
+    public void setAge(int newAge) {
+        if (newAge > 0) {
+            age = newAge;
+        } else {
+            System.out.println("Age must be positive.");
+        }
+    }
+}
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        Employee emp = new Employee();
+
+        // Setting values using setters
+        emp.setName("Alice");
+        emp.setAge(30);
+
+        // Getting values using getters
+        System.out.println("Employee Name: " + emp.getName());
+        System.out.println("Employee Age: " + emp.getAge());
+    }
+}
+
+
+---------------------------------------------------------
+//Abstraction
+//Abstract class with Abstract method and Concrete method
+
+abstract class Animal {
+    abstract void sound();// abstract Method
+
+    void breathe() {
+        System.out.println("Breathing");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Bhow Bhow");
+    }
+
+    void eatFunction() {
+        System.out.println("Eating ");
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound();
+        d.breathe();
+        // Animal a = new Animal();//Non instantiation
+    }
+}
+--------------------------------------------------
+//Interface:
+//Interface is a Completw abstract type
+//Variables  //Method
+.Public      .default
+.Static      .static
+.final       .Private
+--------------------------------------------------
+//Interface
+interface Main {
+
+    public final static int MAX_SPEED = 100;
+    // MAX_SPEED=89;//It is final you can not change the value
+    void fly();
+
+}
+
+class Drone implements Main {
+    public void fly() {
+        System.out.println("Flying");
+    }
+
+}
+
+public class InnerMain {
+
+    public static void main(String[] args) {
+        Drone d = new Drone();
+        d.fly();
+    }
+}
+-------------------------------------
+//Interface
+
+interface Main {
+
+    public final static int MAX_SPEED = 100;
+
+    // MAX_SPEED=89;//it is final you can not change the value
+    void fly();
+
+}
+
+class Drone implements Main {
+    public void fly() {
+        System.out.println("Flying");
+    }
+
+}
+
+interface Vehicle {
+    // default Method (it can be Overridden)
+    default void start() {
+        System.out.println("Car Starting ");
+    }
+
+    // static method (belongs to the interface)
+    static void stop() {
+    }
+
+}
+
+class Car implements Vehicle {
+    @Override
+    public void start() {
+        System.out.println("Car Starting ");
+    }
+}
+
+public class InnerMain {
+    public static void main(String[] args) {
+        Drone d = new Drone();
+        d.fly();
+
+        Car c = new Car();
+        c.start();
+
+        Vehicle.stop();
+
+    }
+
+}
+----------------------------------------------------------
+//Array 
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr={10,4,3,67,34,9}; //array literal
+        //Updation in an array
+        arr[3]=100;
+
+        System.out.println("Array before Sorting: ");
+        System.out.println("First element is :"+ arr[0]);
+        System.out.println("Second element is :"+ arr[1]);
+        System.out.println("Last element is :"+ arr[5]);
+        System.out.println("Last element is :"+ arr[arr.length-1]);
+        //System.out.println("Last element is :"+ arr[arr.length]);//ArrayIndexOutOfBoundsException
+
+         
+
+        //Traversal in an Array
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]+ " ");
+            
+        }
+        System.out.println();
+
+        //Traversal in an Array
+        for (int num : arr) {
+            System.out.print(num+" ");
+            
+        }
+
+        System.out.println();
+
+
+        System.out.println("Array after Sorting: ");
+        // ARRAY SORTING
+        Arrays.sort(arr);
+
+
+        System.out.println("First element is :"+ arr[0]);
+        System.out.println("Second element is :"+ arr[1]);
+        System.out.println("Last element is :"+ arr[5]);
+        System.out.println("Last element is :"+ arr[arr.length-1]);
+
+        //Traversal in an Array
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]+ " ");
+            
+        }
+        System.out.println();
+
+        //Traversal in an Array
+        for (int num : arr) {
+            System.out.print(num+" ");
+            
+        }
+
+    }
+}
+
+-----------------------------------------------
+//array using new keyword
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr=new int[5];
+        arr[0]=30;
+        arr[1]=40;
+        arr[2]=60;
+        arr[3]=20;
+        arr[4]=50;
+        for (int num : arr) {
+            System.out.print(num+" ");
+            
+        }
+    }
+}
+-------------------------------------------------
+//array using new keyword: reinitilization
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr;
+        arr=new int[5];
+        arr[0]=30;
+        arr[1]=40;
+        arr[2]=60;
+        arr[3]=20;
+        arr[4]=50;
+        for (int num : arr) {
+            System.out.print(num+" ");
+            
+        }
+    }
+}
+
+-------------------------------------------------------------------
+//Array using new keyword: and initilizing value that time 
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr=new int[]{10,20,30,49,67};
+        for (int num : arr) {
+            System.out.print(num+" ");
+            
+        }
+        
+    }
+}
+------------------------------------------------------------------------
+//this is not insertion in an array : this is normal updation
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr=new int[]{10,20,30,49,67};
+        arr[2]=100;
+        for (int num : arr) {
+            System.out.print(num+" ");
+            
+        }
+        
+    }
+}
+------------------------------------------------------
+//Insertion in an array : shifting of elements 
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr=new int[]{10,20,30,49,67};
+        int insertIndex=2;
+        int insertValue=100;
+        for (int i = arr.length-1; i > insertIndex; i--) {
+            arr[i]=arr[i-1];
+            
+        }
+        arr[insertIndex]=insertValue;
+        System.out.println("Array after Insertion: ");
+        for (int num : arr) {
+            System.out.print(num+" ");
+            
+        }
+        
+    }
+}
+
+----------------------------------------------------------------------------------------------------
+//Deletion of element in an array ,instead of calling deletion we should say shifting of elements
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 10, 20, 30, 40, 50 };
+        int deleteIndex = 2;
+
+        for (int i = deleteIndex; i < arr.length - 1; i++) {
+            arr[i] = arr[i + 1];
+
+        }
+        arr[arr.length-1] = 0;
+
+        System.out.println("Array after Deletion is:  ");
+
+        for (int i = 0; i < arr.length-1; i++) {
+            System.out.print(arr[i]+" ");
+            
+        }
+        System.out.println();
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+
+        } 
+    }
+}
+
+------------------------------------------------------
+//Copying element in an array from another Array
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr={67,34,56,78,89};
+        int[] copyArr=new int[7];
+        for (int i = 0; i < arr.length; i++) {
+            copyArr[i]=arr[i];
+            
+        }
+        copyArr[5]=78;
+        copyArr[6]=68;
+
+        for (int num : copyArr) {
+            System.out.print(num+" ");
+
+            
+        }
+    }
+}
+
+-------------------------------------------------------------
+//Copying element in an array from another Array
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr={67,34,56,78,89};
+        int[] copyArr=Arrays.copyOf(arr, arr.length);
+
+        for (int num : copyArr) {
+            System.out.print(num+" ");
+
+            
+        }
+    }
+}
+-----------------------------------------------------
+//Exception Handling //Try Catch
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 67, 34, 56, 78, 89 };
+        int[] copyArr = Arrays.copyOf(arr, arr.length);
+
+        for (int num : copyArr) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+        try {
+            System.out.println(arr[5]);
+
+        } catch (Exception e) {
+            // TODO: handle exception
+            System.out.println("Error: " + e.getMessage());
+        }
+
+        System.out.println("The Original Array is: " + Arrays.toString(arr));
+    }
+}
+-------------------------------------------------------
+//Exception Handling (ArrayIndexOutOfBoundsException e)
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 67, 34, 56, 78, 89 };
+        int[] copyArr = Arrays.copyOf(arr, arr.length);
+
+        for (int num : copyArr) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+        try {
+            System.out.println(arr[5]);
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+            // TODO: handle exception
+            System.out.println("Error: " + e.getMessage());
+        }
+
+        System.out.println("The Original Array is: " + Arrays.toString(arr));
+    }
+}
+------------------------------------------------------------
+//Linear Search
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 67, 34, 56, 78, 89 };
+        int target = 78;
+        boolean found = false;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                System.out.println("Target found at index " + i);
+                found = true;
+                break;
+
+            }
+
+        }
+        if (!found) {
+            System.out.println("Target is Not found");
+
+        }
+
+    }
+}
+--------------------------------------------------------
+
+//Binary Search (Arrays.binarySearch)
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 67, 34, 56, 78, 89 };
+        int target = 56;
+        int index = Arrays.binarySearch(arr, target);
+        if (index >= 0) {
+            System.out.println("Target element found");
+
+        } else {
+            System.out.println("Target Not found");
+        }
+
+    }
+}
+----------------------------------------------------
+//Sorting
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 67, 34, 56, 78, 89 };
+
+        Arrays.sort(arr);
+        System.out.println("The sorted Array is: " + Arrays.toString(arr));
+
+    }
+}
+--------------------------------------------------------
+//When array is very large that time it is used (Arrays.parallelSort(arr))
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 67, 34, 56, 78, 89 };
+
+        Arrays.parallelSort(arr);
+        // Arrays.toString Method print in Iterative way with []
+        System.out.println("The sorted Array is: " + Arrays.toString(arr));
+
+    }
+}
+-----------------------------------------------------
+//Use of Methods in an Array
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int[] number = { 56, 78, 3, 4, 58, 90, 23, 34 };
+        System.out.println("The original array is: " + Arrays.toString(number));
+
+        Arrays.sort(number);
+        System.out.println("The Sorted array is: " + Arrays.toString(number));
+
+        Arrays.parallelSort(number);
+        System.out.println("The Sorted array is: " + Arrays.toString(number));
+
+        int index = Arrays.binarySearch(number, 58);
+        System.out.println("Found at index :" + index);
+
+        int[] copiedArray = Arrays.copyOf(number, 4);
+        System.out.println("The Copied array is: " + Arrays.toString(copiedArray));
+
+        int[] rangeCopy = Arrays.copyOfRange(number, 2, 5);
+        System.out.println("The Range Copied array is: " + Arrays.toString(rangeCopy));
+
+        int[] filledArray = new int[5];
+        Arrays.fill(filledArray, -1);
+        System.out.println("The filled array is: " + Arrays.toString(filledArray));
+
+        int[] arr1 = { 10, 20, 30 };
+        int[] arr2 = { 10, 20, 30 };
+        int[] arr3 = new int[] { 10, 20, 30 };
+
+        boolean isEqual = Arrays.equals(arr1, arr2);
+        System.out.println("Is arr1 and arr2 equal?: " + isEqual);
+
+        boolean isEqual1 = Arrays.equals(arr1, arr3);
+        System.out.println("Is arr1 and arr3 equal?: " + isEqual1);
+
+        arr1 = arr2;
+
+        boolean isEqual2 = arr1 == arr2;
+        System.out.println("Is arr1 and arr2 equal?: " + isEqual2);
+
+        boolean isEqual3 = arr1 == arr3;
+        System.out.println("Is arr1 and arr3 equal?: " + isEqual3);
+
+        String str = "Amit";
+        String str1 = "Amit";
+        String str2=new String("Amit");
+        System.out.println(str==str1);
+        System.out.println(str==str2);
+
+    }
+}
+-------------------------------------------------------
+//Pseudo Dynamic Array
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr1=new int[3];
+        arr1[0]=10;
+        arr1[1]=20;
+        arr1[2]=30;
+
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i]+" ");
+            
+        }
+        System.out.println();
+        System.out.println("Length of arr1 is: "+arr1.length);
+
+        int[] arr2=new int[arr1.length*2];
+        for (int i = 0; i < arr1.length; i++) {
+            arr2[i]=arr1[i];
+            
+        }
+        arr2[3]=40;
+        arr2[4]=50;
+        arr2[5]=60;
+
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i]+" ");
+            
+        }
+        System.out.println();
+        System.out.println("Length of arr2 is: "+arr2.length);
+
+        for (int i = 0; i < 6; i++) {
+            System.out.print(arr2[i]+" ");
+            
+        }
+        System.out.println();
+        System.out.println("Length of arr2 is: "+arr2.length);
+
+        arr2=arr1;
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i]+" ");
+            
+        }
+        System.out.println();
+        System.out.println("Length of arr2 is: "+arr2.length);
+
+        //out of bound exception because now arr2 is referencing to arr 1 which is of length 3 
+        // for (int i = 0; i <6; i++) {
+        //     System.out.print(arr2[i]+" ");
+            
+        // }
+        // System.out.println();
+        // System.out.println("Length of arr2 is: "+arr2.length);
+        
+
+
+    }
+}
+------------------------------------------------------------
+//Array stores data according to the type of the data
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr1 = new int[] { 10, 4, 6 };
+        for (int num : arr1) {
+            System.out.print(num + " ");
+
+        }
+        System.out.println();
+
+        Object[] arr2 = new Object[6];
+        arr2[0] = 56;
+        arr2[1] = 56.67;
+        arr2[2] = true;
+        arr2[3] = "Amit";
+        arr2[4] = 'A';
+        arr2[5] = false;
+
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i] + " ");
+
+        }
+        System.out.println();
+
+        for (Object num : arr2) {
+            System.out.print(num + " ");
+
+        }
+
+    }
+}
+------------------------------------------------------------------
+//Polymorphism with array and loops
+
+class Shape {
+    void draw() {
+        System.out.println("Drawing a shape");
+    }
+}
+
+class Circle extends Shape {
+    int x = 10;
+    String str = "Circle";
+
+    @Override
+    void draw() {
+        System.out.println("Drawing a circle");
+
+    }
+
+}
+
+class Square extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a square");
+
+    }
+
+}
+
+public class TestPolymorphism {
+    public static void main(String[] args) {
+        Shape[] shapes = new Shape[2];
+        shapes[1] = new Circle();
+        shapes[0] = new Square();
+
+        for (Shape s : shapes) {
+            s.draw();
+
+        }
+
+    }
+
+}
+---------------------------------------------------------
+// Passing of Array into Methods
+
+public class Main {
+    public static void printArray(int[] arr){
+        System.out.println("The Array is: ");
+        for (int num : arr) {
+            System.out.print(num+" ");
+            
+        }
+
+    }
+
+    public static void main(String[] args) {
+        int[] arr={10,20,30,40};
+        printArray(arr);
+        
+    }
+}
+----------------------------------------------------
+//Returning of Array from Methods
+
+import java.util.Arrays;
+
+public class Main {
+    public static int[] createArray(int size) {
+        int[] arr = new int[size];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i + 1;
+
+        }
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        int size = 5;
+        int[] result = createArray(size);
+        System.out.println("Array is : " + Arrays.toString(result));
+
+    }
+}
+-------------------------------------------------------
+// passing and returning array from method
+
+import java.util.Arrays;
+
+public class Main {
+    public static int[] createArray(int[] arr) {
+        Arrays.sort(arr);
+        return arr;
+
+    }
+
+    public static void main(String[] args) {
+
+        int[] arr = { 45, 78, 34, 56, 7 };
+        int[] result = createArray(arr);
+        System.out.println("Array is : " + Arrays.toString(result));
+
+    }
+}
+----------------------------------------------------------
+//Maximum and Minimum from a array
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 52, 3, 1, 6, 2, 8, 19 };
+        int max = arr[0];
+        int min = arr[0];
+        for (int num : arr) {
+            if (num > max) {
+                max = num;
+
+            }
+            if (num < min) {
+                min = num;
+
+            }
+
+        }
+        System.out.println("maximum number is: " + max);
+        System.out.println("minimum number is: " + min);
+    }
+}
+------------------------------------------------------
+//Maximum and Minimum from a array (by taking MIN-MAX)
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 52, 3, 1, 6, 2, 8, 19 };
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        for (int num : arr) {
+            if (num > max) {
+                max = num;
+
+            }
+            if (num < min) {
+                min = num;
+
+            }
+
+        }
+        System.out.println("maximum number is: " + max);
+        System.out.println("minimum number is: " + min);
+    }
+}
+------------------------------------------------------------
+//Add all elements of an Array
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 52, 3, 1, 6, 2, 8, 19 };
+        int sum=0;
+        for (int num : arr) {
+            sum+=num;
+             
+        }
+        System.out.println("Sum is : "+ sum);
+    }
+}
+--------------------------------------------------
+//Add all EVEN elements of an array
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = { 52, 3, 1, 6, 2, 8, 19 };
+        int sum=0;
+        for (int num : arr) {
+            if (num%2==0) {
+                sum+=num;
+                
+            }
+        }
+        System.out.println("Sum is : "+ sum);
+    }
+}
+-----------------------------------------------------------
+//ArrayList
+
+import java.util.ArrayList;
+
+public class Main {
+
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(40);
+        list.add(50);
+        list.add(60);
+        list.add(20);
+
+        System.out.println("The arraylist is : " + list);
+        System.out.println("Size is :" + list.size());
+        System.out.println("Is ArrayList Empty ? :" + list.isEmpty());
+        System.out.println("It contains 20 or not ? :" + list.contains(20));
+        System.out.println("It contains 25 or not ? :" + list.contains(25));
+        System.out.println("First Occurance of 20 is: " + list.indexOf(20));
+        System.out.println("Last Occurance of 20 is: " + list.lastIndexOf(20));
+
+        System.out.println("The array list is : ");
+        for (int i = 0; i < list.size(); i++) {
+            System.out.print(list.get(i) + " ");
+
+        }
+
+        System.out.println();
+        System.out.println("The array list is : ");
+        for (Integer num : list) {
+            System.out.print(num + " ");
+
+        }
+
+        System.out.println();
+        list.add(3, 100);
+
+        System.out.println("The arraylist is : " + list);
+        System.out.println("Size is :" + list.size());
+        System.out.println("Is ArrayList Empty ? :" + list.isEmpty());
+        System.out.println("It contains 20 or not ? :" + list.contains(20));
+        System.out.println("It contains 25 or not ? :" + list.contains(25));
+        System.out.println("First Occurance of 20 is: " + list.indexOf(20));
+        System.out.println("Last Occurance of 20 is: " + list.lastIndexOf(20));
+
+        System.out.println("The element at index 4 is: " + list.get(4));
+        System.out.println("Updating the value of 5th index to 200: " + list.set(5, 200));
+        System.out.println("Deleting element :" + list.remove(6));
+
+        System.out.println("Is ArrayList Empty ? :" + list.isEmpty());
+        System.out.println("It contains 20 or not ? :" + list.contains(20));
+        System.out.println("It contains 25 or not ? :" + list.contains(25));
+        System.out.println("First Occurance of 20 is: " + list.indexOf(20));
+        System.out.println("Last Occurance of 20 is: " + list.lastIndexOf(20));
+
+        list.clear();
+
+        System.out.println("Is ArrayList Empty ? :" + list.isEmpty());
+        System.out.println("It contains 20 or not ? :" + list.contains(20));
+        System.out.println("It contains 25 or not ? :" + list.contains(25));
+        System.out.println("First Occurance of 20 is: " + list.indexOf(20));
+        System.out.println("Last Occurance of 20 is: " + list.lastIndexOf(20));
+
+    }
+}
+-------------------------------------------------------------
+//Printing Arraylist using Iterators class
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Main {
+
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Orange");
+        list.add("Mango");
+        list.add("Banana");
+        list.add("Apple");
+        list.add("Kiwi");
+        list.add("Strawberry");
+        list.add("BlueBerry");
+        list.add("Avacado");
+        list.add("Dragon Fruit");
+
+        Iterator<String> iterator = list.iterator();
+
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + " ");
+
+        }
+    }
+}
+---------------------------------------------------------
+//Printing Arraylist using Lambda Expression
+
+import java.util.ArrayList;
+
+public class Main {
+
+    public static void main(String[] args) {
+        ArrayList<String> list=new ArrayList<>();
+        list.add("Orange");
+        list.add("Mango");
+        list.add("Banana");
+        list.add("Apple");
+        list.add("Kiwi");
+        list.add("Strawberry");
+        list.add("BlueBerry");
+        list.add("Avacado");
+        list.add("Dragon Fruit");
+
+        System.out.println("The ArrayList is: ");
+        list.forEach(fruit->System.out.println(fruit)); // LAMBDA FUNCTION ->
+
+    }
+}
+---------------------------------------------------
+//Printing Arraylist using Method Reference
+
+import java.util.ArrayList;
+
+public class Main {
+
+  public static void main(String[] args) {
+    ArrayList<String> list = new ArrayList<>();
+    list.add("Orange");
+    list.add("Mango");
+    list.add("Banana");
+    list.add("Apple");
+    list.add("Kiwi");
+    list.add("Strawberry");
+    list.add("BlueBerry");
+    list.add("Avacado");
+    list.add("Dragon Fruit");
+
+    System.out.println("The ArrayList is: ");
+    list.forEach(System.out::println);
+
+  }
+}
+-----------------------------------------------
+//Fibonacci Sequence using Sliding Window of fixed size
+
+public class Main {
+  public static void main(String[] args) {
+    int n = 10;
+    int first = 0, second = 1;
+    System.out.println("Fibonacci Sequence is : ");
+    for (int i = 1; i <= n; i++) {
+      System.out.print(first + " ");
+      int next = first + second;
+      first = second;
+      second = next;
+
+    }
+  }
+}
+-----------------------------------------------
+//Second Maximum from an Array
+
+public class Main {
+
+  public static int secondMaximum(int[] arr) {
+    int first = Integer.MIN_VALUE;
+    int second = Integer.MIN_VALUE;
+
+    for (int num : arr) {
+      if (num > first) {
+        second = first;
+        first = num;
+
+      } else if (first > num && num > second) {
+        second = num;
+
+      }
+    }
+    return second;
+  }
+
+  public static void main(String[] args) {
+    int[] arr = { 3, 4, 5, 23, 8, 9 };
+    int result = secondMaximum(arr);
+    System.out.println(result);
+
+  }
+}
+-------------------------------------------------
+//Third Maximum from an Array : https://leetcode.com/problems/third-maximum-number/
+
+//Second Maximum from an Array
+
+class Solution {
+    public int thirdMax(int[] nums) {
+        long first = Long.MIN_VALUE;
+        long second = Long.MIN_VALUE;
+        long third = Long.MIN_VALUE;
+
+        for (int num : nums) {
+            if (num > first) {
+                third=second;
+                second = first;
+                first = num;
+            } else if (first > num && num > second) {
+                third = second;
+                second = num;
+            } else if (second > num && num > third) {
+                third = num;
+            }
+        }
+        return third == Long.MIN_VALUE ? (int)first : (int)third;
+
+    }
+}
+------------------------------------------------
+//Reverse an Array: Two pointer Technique
+
+import java.util.Arrays;
+
+public class Main {
+
+  public static int[] reverseArray(int[] arr) {
+    for (int i = 0, j = arr.length - 1; i < j; i++, j--) {
+      int temp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = temp;
+
+    }
+    return arr;
+
+  }
+
+  public static void main(String[] args) {
+    int[] arr = { 6, 5, 3, 5, 26, 22, 3 };
+    int[] result = reverseArray(arr);
+    System.out.println(Arrays.toString(result));
+
+  }
+}
+-----------------------------------------------
+//Reverse an Array
+
+import java.util.Arrays;
+
+public class Main {
+
+  public static int[] reverseArray(int[] arr) {
+
+    int i = 0, j = arr.length - 1;
+    while (i < j) {
+      int temp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = temp;
+      i++;
+      j--;
+
+    }
+
+    return arr;
+
+  }
+
+  public static void main(String[] args) {
+    int[] arr = { 6, 5, 3, 5, 26, 22, 3 };
+    int[] result = reverseArray(arr);
+    System.out.println(Arrays.toString(result));
+
+  }
+}
+-----------------------------------------------
+//Remove Duplicates from an array
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Main {
+  public static int[] removeDuplcates(int[] arr) {
+    List<Integer> list = new ArrayList<>();
+    for (int num : arr) {
+      if (!list.contains(num)) {
+        list.add(num);
+
+      }
+
+    }
+    int[] result = new int[list.size()];
+    for (int i = 0; i < list.size(); i++) {
+      result[i] = list.get(i);
+
+    }
+    return result;
+
+  }
+
+  public static void main(String[] args) {
+    int[] arr = { 1, 2, 4, 6, 7, 2, 2, 4, 8 };
+    int[] nums = removeDuplcates(arr);
+    System.out.println("The unique elements array is: " + Arrays.toString(nums));
+
+  }
+}
+-----------------------------------------------
+//Remove Duplicates from an array :https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+class Solution {
+  public int removeDuplicates(int[] nums) {
+    int i = 0;
+    for (int j = 1; j < nums.length; j++) {
+      if (nums[j] != nums[i]) {
+        i++;
+        nums[i] = nums[j];
+
+      }
+    }
+
+    return i + 1;
+
+  }
+}
+-------------------------------------------------
+//if you want to debug the leetcode answer then write the main method and debug it
+public class Solution {
+    public static int removeDuplicates(int[] nums) {
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+
+            }
+        }
+
+        return i + 1;
+
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {0,0,1,1,1,2,2,3,3,4};
+        int sortedLength=removeDuplicates(nums);
+        System.out.println("The Sorted length is: "+ sortedLength);
+    }
+}
+
+
+------------------------------------------------
+//leetCode 283.
+class Solution {
+    public void moveZeroes(int[] nums) {
+        int n = nums.length;
+        int lastZero = 0;// slow pointer
+
+        for (int i = 0; i < n; i++) { // i is fast pointer
+            if (nums[i] != 0) {
+                int temp = nums[i];
+                nums[i] = nums[lastZero];
+                nums[lastZero] = temp;
+                lastZero++;
+            }
+
+        }
+    }
+}
+-----------------------------------------------
+//189. Rotate an Array [O(2n) time complexity]
+class Solution {
+    public void rotate(int[] nums, int k) {
+        int n = nums.length;
+        int rotate[] = new int [n];
+
+        for (int i = 0; i < nums.length; i++) {//O(n)
+            rotate[(i+k)%n] = nums[i];
+            
+        }
+        for (int i = 0; i < n; i++) {//O(n)
+            nums[i]=rotate[i];
+            
+        }
+    }
+}
+---------------------------------------------
+//189. Rotate array [less Space complexity]but same time complexity
+class Solution {
+    public void rotate(int[] nums, int k) {
+        int n = nums.length;
+        k = k%n;
+    
+    reverse(nums , 0, n-1);
+    reverse(nums , 0, k-1);
+    reverse(nums , k, n-1);
+    }
+
+public void reverse ( int nums[], int si, int ei){
+    while (si<ei){
+        int temp = nums[si];
+         nums [si] = nums [ei];
+         nums [ei] = temp;
+
+        si++;
+        ei--;
+    }
+  }
+}
+------------------------------------------
+//Find Subarrays from the given array 
+public class Main {
+
+    public static void main(String[] args) {
+        int arr[] = { 1, 2, 3, 4 };
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i; j < arr.length; j++) {
+                for (int j2 = i; j2 <=j; j2++) {
+                    System.out.print(arr[j2] + " ");
+
+                }
+                System.out.println();
+            }
+        }
+    }
+}
+---------------------------------------------------
+// 162. Find Peak Element 
+class Solution {
+    public int findPeakElement(int[] nums) {
+        int n = nums.length;
+        int si = 0, ei=n-1;
+        
+        while(si<ei){
+            int mid = si + (ei-si)/2;
+            
+            if(nums[mid] < nums[mid+1]){
+                si = mid+1;
+            } else {
+                ei = mid;
+            }
+        }
+       return si;
+    }
+}
+-------------------------------------------------
+//53. Maximum Subarray [by Kadane's algorithm]
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int currSum = 0, maxSum = Integer.MIN_VALUE;
+
+        for (int i : nums) {
+            currSum +=i;
+
+            maxSum = Math.max(currSum, maxSum);
+
+            if (currSum< 0) {
+                currSum = 0;
+            }
+        }
+    return maxSum;
+    }
+}
+--------------------------------------------------------------
+//53. Maximum Subarray BY sir [ Kadanes Algorithm ]
+public class Main {
+    public static void main(String[] args) {
+
+        int[] arr = { 1, 2, -1, 3, -2 };
+        int n = arr.length;
+        int currentSum = 0;
+        int maxSum = arr[0];
+
+        for (int i = 0; i < n - 1; i++) {
+            if (currentSum < 0)
+                currentSum = 0; // kadanes approach
+
+            currentSum += arr[i];
+            maxSum = Math.max(maxSum, currentSum);
+
+        }
+
+        System.out.println("Max sum of subarray is :" + maxSum);
+    }
+}
+
+---------------------------------------------------------------
+// 33. Search in Rotated Sorted Array [Time complexity = O(n)]
+class Solution {
+    public int search(int[] nums, int target) {
+        int index = -1;
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == target) {
+                index = i;
+            }
+        }
+        if (index >= 0) {
+            return index;
+        } else {
+            return -1;
+        }
+    }
+
+}
+-----------------------------------------------------
+// 11. Container with Most Water
+class Solution {
+    public int trap(int[] height) {
+
+        int left = 0;
+        int right = height.length - 1;
+        int leftMax = 0;
+        int rightMax = 0;
+        int ans = 0;
+        while (left < right) {
+            if (height[left] <= height[right]) {
+                if (height[left] >= leftMax) {
+                    leftMax = height[left];
+
+                } else {
+                    ans += leftMax - height[left];
+
+                }
+                left++;
+            } else {
+                if (height[right] >= rightMax) {
+                    rightMax = height[right];
+
+                } else {
+                    ans += rightMax - height[right];
+
+                }
+                right--;
+            }
+        }
+        return ans;
+    }
+}
+------------------------------------------------------
+//BinarySearch by amit sir
+public class Main {
+    public static int binarySearch(int[] arr,int target){
+        int left=0;
+        int right=arr.length-1;
+        while (left<=right) {
+            int mid=left+(right-left)/2;
+            if (arr[mid]==target) {
+                return mid;
+                
+            }else if (arr[mid]<target) {
+                left=mid+1;
+
+                
+            }else{
+                right=mid-1;
+            }
+            
+        }
+        return -1;
+
+    }
+    public static void main(String[] args) {
+        int[] arr={10,20,30,40,50,60,70,80,90};
+        int result=binarySearch(arr, 90);
+        System.out.println("The index of 90 is :" + result);
+        
+    }
+}
+---------------------------------------------------------------
+//Recursive BinarySearch
+public class Main {
+
+    public static int binarySearchRecursive(int[] arr, int left, int right, int target) {
+        if (left > right) {
+            return -1;
+
+        }
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == target) {
+            return mid;
+
+        } else if (arr[mid] < target) {
+            return binarySearchRecursive(arr, mid + 1, right, target);
+
+        } else {
+            return binarySearchRecursive(arr, left, mid - 1, target);
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        int[] arr = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+
+        int result1 = binarySearchRecursive(arr, 0, arr.length - 1, 90);
+        System.out.println("The index of 90 is :" + result1);
+
+    }
+}
+---------------------------------------------------
+// 69. Sqrt(x)  https://leetcode.com/problems/sqrtx/
+
+class Solution {
+    public int mySqrt(int x) {
+        if (x==0) {
+            return 0;
+            
+        }
+        int left=1;
+        int right=x;
+
+        while (left<=right) {
+            int mid=left+(right-left)/2;
+            long square=(long)mid*mid;
+            if (square==x) {
+                return mid;
+                
+            }else if (square<x) {
+                left=mid+1;
+                
+            }else{
+                right=mid-1;
+            }
+        }
+        return right; 
+    }
+}
+------------------------------------------------
+//374. Guess number higher or lower 
+
+/**
+ * Forward declaration of guess API.
+ * 
+ * @param num your guess
+ * @return -1 if num is higher than the picked number
+ *         1 if num is lower than the picked number
+ *         otherwise return 0
+ *         int guess(int num);
+ */
+
+public class Solution extends GuessGame {
+    public int guessNumber(int n) {
+
+        int left = 1;
+        int right =n;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int result=guess(mid);
+            if (result == 0) {
+                return mid;
+
+            } else if (result==1) {
+                left = mid + 1;
+
+            } else {
+                right = mid - 1;
+            }
+
+        }
+        return -1;
+
+    }
+}
+----------------------------------------------------------------
+// 1539. Kth missing positive number
+class Solution {
+    public int findKthPositive(int[] arr, int k) {
+        int left = 0;
+        int right = arr.length-1;
+
+        while(left<=right){
+            int mid = left+(right - left)/2;
+            int missing = arr[mid] - (mid+1);
+    
+             if(missing<left){
+                left = mid+1;
+             } else {
+                right = mid-1;
+             }
+        
+   
+    }
+     return left + k;
+  }
+}
+--------------------------------------------------
+//34.find-first-and-last-position-of-element-in-sorted-array
+// https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+class Solution {
+    public int[] searchRange(int[] nums, int target) {
+        if (nums.length == 0) {
+            return new int[] { -1, -1 };
+
+        }
+        int first=findFirst(nums,target);
+        int last=findLast(nums, target);
+        return new int[]{first,last};
+
+
+    }
+    private int findFirst(int[] nums,int target){
+        int left=0;
+        int right=nums.length-1;
+        int ans=-1;
+        while (left<=right) {
+            int mid=left+(right-left)/2;
+            if (nums[mid]==target) {
+                ans=mid;
+                right=mid-1;
+
+                
+            }else if (nums[mid]<target) {
+                left=mid+1;
+                
+            }else{
+                right=mid-1;
+            }
+            
+        }
+        return ans;
+        
+    }
+    private int findLast(int[] nums,int target){
+         int left=0;
+        int right=nums.length-1;
+        int ans=-1;
+        while (left<=right) {
+            int mid=left+(right-left)/2;
+            if (nums[mid]==target) {
+                ans=mid;
+                left=mid+1;
+
+                
+            }else if (nums[mid]<target) {
+                left=mid+1;
+                
+            }else{
+                right=mid-1;
+            }
+            
+        }
+        return ans;
+        
+    }
+}
+-----------------------------------------------------
+//540. single-element-in-a-sorted-array
+//https://leetcode.com/problems/single-element-in-a-sorted-array/description/
+ 
+ class Solution {
+    public int singleNonDuplicate(int[] nums) {
+        int left=0;
+        int right=nums.length-1;
+
+        while (left<right) {
+            int mid=left+(right-left)/2;
+            System.out.println("Mid is: "+mid);
+
+            if (mid%2==1) {
+                mid--;
+                
+            }
+            System.out.println("Mid is: "+mid);
+            if (nums[mid]==nums[mid+1]) {
+                left=mid+2;
+
+                
+            }else{
+                right=mid;
+            }
+            System.out.println("Left is: "+ left);
+            System.out.println("Right is: "+ right);
+            
+        }
+        return nums[left];
+        
+    }
+    public static void main(String[] args) {
+        Solution obj=new Solution();
+        int[] arr={1,1,2,3,3,4,4,8,8};
+        int result=obj.singleNonDuplicate(arr);
+        System.out.println("The Missing Element is : "+ result);
+    }
+}
+------------------------------------------------
+//33. Search in Rotated Sorted Array
+//https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+class Solution {
+    public int search(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (left <=right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                return mid;
+
+            }
+            if (nums[left] <= nums[mid]) {
+                if (nums[left] <= target && target < nums[mid]) {
+                    right = mid - 1;
+
+                } else {
+                    left = mid + 1;
+                }
+
+            } else {
+                if (nums[mid] < target && target <= nums[right]) {
+                    left = mid + 1;
+
+                } else {
+                    right = mid - 1;
+                }
+
+            }
+
+        }
+        return -1;
+
+    }
+}
+
+----------------------------------------------------
+// 81. Search in Sorted Array ii
+//https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+
+public class Solution {
+    public boolean search(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                return true;
+
+            }
+            if (nums[left] == nums[mid] && nums[mid] == nums[right]) {
+                left++;
+                right--;
+
+            } else if (nums[left] <= nums[mid]) {
+                if (nums[left] <= target && target < nums[mid]) {
+                    right = mid - 1;
+                }else{
+                    left = mid + 1;
+                }
+
+            }else{
+                if (nums[mid] < target && target <= nums[right]) {
+                    left=mid+1;
+                }else{
+                    right=mid-1;
+                }
+            }
+
+        }
+        return false;
+    }
+
+}
+------------------------------------------------
+//153. find-minimum-in-rotated-sorted-array
+//https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+class Solution {
+    public int findMin(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] > nums[right]) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+
+        }
+        return nums[left];
+    }
+
+}
+-------------------------------------------------
+//162.find-peak-element
+//https://leetcode.com/problems/find-peak-element/description/
+
+class Solution {
+    public int findPeakElement(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < nums[mid + 1]) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+
+        }
+        return left;
+    }
+
+}
+-----------------------------------------------------
+//852. Peak Index in a Mountain Array
+//https://leetcode.com/problems/peak-index-in-a-mountain-array/
+class Solution {
+    public int peakIndexInMountainArray(int[] arr) {
+        int left=0;
+        int right=arr.length-1;
+        while (left<right) {
+            int mid=left+(right-left)/2;
+            if (arr[mid]<arr[mid+1]) {
+                left=mid+1;
+                
+            }else{
+                right=mid;
+            }
+            
+        }
+        return left;
+        
+    }
+}
+---------------------------------------------------
+// 1095. Find in Mountain Array
+//https://leetcode.com/problems/find-in-mountain-array/
+
+/**
+ * // This is MountainArray's API interface.
+ * // You should not implement it, or speculate about its implementation
+ * interface MountainArray {
+ * public int get(int index) {}
+ * public int length() {}
+ * }
+ */
+
+class Solution {
+    public int findInMountainArray(int target, MountainArray mountainArr) {
+        int n = mountainArr.length();
+        int peak = findPeak(mountainArr, n);
+        int leftElement = binarySearchIncreasing(mountainArr, target, 0, peak);
+        if (leftElement != -1) {
+            return leftElement;
+        }
+        return binarySearchDecreasing(mountainArr, target, peak + 1, n - 1);
+
+    }
+
+    public int findPeak(MountainArray mountainArr, int n) {
+        int left = 0;
+        int right = n - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (mountainArr.get(mid) < mountainArr.get(mid + 1)) {
+                left = mid + 1;
+
+            } else {
+                right = mid;
+            }
+
+        }
+        return left;
+
+    }
+
+    private int binarySearchIncreasing(MountainArray mountainArr, int target, int left, int right) {
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int value = mountainArr.get(mid);
+            if (value == target) {
+                return mid;
+
+            } else if (value < target) {
+                left = mid + 1;
+
+            } else {
+                right = mid - 1;
+            }
+
+        }
+        return -1;
+
+    }
+
+    private int binarySearchDecreasing(MountainArray mountainArr, int target, int left, int right) {
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int value = mountainArr.get(mid);
+            if (value == target) {
+                return mid;
+
+            } else if (value < target) {
+                right = mid - 1;
+
+            } else {
+                left = mid + 1;
+
+            }
+
+        }
+        return -1;
+
+    }
+}
+-----------------------------------------------------
+// HashMap - HashTable
+import java.util.HashMap;
+import java.util.Hashtable;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<Integer,String> hashMap=new HashMap<>();
+        hashMap.put(1, "Apple");
+        hashMap.put(2, "Avacado");
+        hashMap.put(3, "Dragon Fruit");
+        hashMap.put(4, "Blue Berry");
+        hashMap.put(5, "Kiwi");
+        hashMap.put(null, " Null key Taken");
+        System.out.println("HashmAp is : "+ hashMap);
+        System.out.println("Size is : "+ hashMap.size());
+
+
+        Hashtable<Integer,String> hashTable=new Hashtable<>();
+        hashTable.put(1, "Apple");
+        hashTable.put(2, "Avacado");
+        hashTable.put(3, "Dragon Fruit");
+        hashTable.put(4, "Blue Berry");
+        hashTable.put(5, "Kiwi");
+        //hashTable.put(null, " Null key Taken");
+        System.out.println("HashTable is : "+ hashTable);
+        System.out.println("Size is : "+ hashTable.size());
+
+    } 
+}
+--------------------------------------------------------
+// HashMap Methods
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+
+    public static void main(String[] args) {
+        HashMap<String, Integer> hashMap = new HashMap<>();
+
+        hashMap.put("Apple", 45);
+        hashMap.put("Kiwi", 55);
+        hashMap.put("Orange", 65);
+        hashMap.put("PineApple", 85);
+        hashMap.put("BlueBerry", 15);
+
+        System.out.println("The HashMap is : " + hashMap);
+        System.out.println("Size is : " + hashMap.size());
+        System.out.println("The Quantity of Apples are: " + hashMap.get("Apple"));
+
+        hashMap.put("Orange", 100);
+
+        System.out.println("The HashMap is : " + hashMap);
+        System.out.println("Size is : " + hashMap.size());
+
+        System.out.println("The DragonFruit is Present ?: " + hashMap.containsKey("DragonFruit"));
+        System.out.println("The Orange is Present ?: " + hashMap.containsKey("Orange"));
+
+        hashMap.remove("Apple");
+
+        System.out.println("The HashMap is : " + hashMap);
+        System.out.println("Size is : " + hashMap.size());
+        System.out.println("The Apple is Present ?: " + hashMap.containsKey("Apple"));
+
+        for (String fruit : hashMap.keySet()) {
+            System.out.println(fruit + " : " + hashMap.get(fruit));
+        }
+
+        System.out.println("Size is : " + hashMap.size());
+
+        System.out.println("The Key set is :" + hashMap.keySet());
+        System.out.println("The Values are :" + hashMap.values());
+
+        System.out.println("The Entry Set is: " + hashMap.entrySet());
+
+        System.out.println("Contain Values 85 ?: " + hashMap.containsValue(85));
+
+        System.out.println("Mango Quantity is: " + hashMap.getOrDefault("Mango", 0));
+
+        hashMap.replace("Apple", 500);
+        System.out.println("The Replaced Quantity is : " + hashMap.get("Apple"));
+
+        hashMap.replace("PineApple", 85, 2000);
+        System.out.println("The Replaced Quantity of PineApple is : " + hashMap.get("PineApple"));
+
+        hashMap.replace("PineApple", 85, 2000);
+        System.out.println("The Replaced Quantity of PineApple is : " + hashMap.get("PineApple"));
+
+        for (Map.Entry<String,Integer> entry : hashMap.entrySet()) {
+            System.out.println("The key is: "+ entry.getKey());
+            System.out.println("The Value is: "+ entry.getValue());
+            
+        }
+        System.out.println("The Size is : "+hashMap.size());
+        System.out.println("The hashMap is Empty?? "+ hashMap.isEmpty());
+        hashMap.clear();
+        System.out.println("The Size is : "+hashMap.size());
+        System.out.println("The hashMap is Empty?? "+ hashMap.isEmpty());
+
+    }
+}
+-----------------------------------------------------
+// HashMap question solving 
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+
+    private static void findSymmetricPairs(HashMap<String, String> pairs) {
+        HashMap<String, String> symmetricPairs = new HashMap<>();
+
+        for (Map.Entry<String, String> entry : pairs.entrySet()) {
+            String key = entry.getKey();
+            String value = entry.getValue();
+            if (pairs.containsKey(value) && pairs.get(value).equals(key)) {
+                if (!symmetricPairs.containsKey(value)) {
+                    symmetricPairs.put(key, value);
+
+                }
+
+            }
+
+        }
+        System.out.println("The Symmetric Pair is : ");
+        for (Map.Entry<String,String> entry: symmetricPairs.entrySet()) {
+            String key=entry.getKey();
+            String value=entry.getValue();
+            System.out.println(key + " : "+ value);
+            
+            
+        }
+
+
+    }
+
+    public static void main(String[] args) {
+        HashMap<String, String> pairs = new HashMap<>();
+
+        pairs.put("A", "B");
+        pairs.put("C", "D");
+        pairs.put("E", "F");
+        pairs.put("B", "A");
+        pairs.put("D", "C");
+        pairs.put("O", "O");
+        pairs.put("P", "P");
+        findSymmetricPairs(pairs);
+
+    }
+}
+---------------------------------------------
+
+//Hash Code 
+import java.util.Arrays;
+import java.util.Objects;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int hash1=Objects.hash(45,"Amit",89.56,false);
+        System.out.println("The hash Value is : "+hash1);
+
+        int []arr={1,2,3,5,'A'};
+        int hash2=Arrays.hashCode(arr);
+        System.out.println("The hash Value is : "+hash2);
+        
+    }
+}
+------------------------------------------------------
+//First Unique Character in a String 
+
+import java.util.HashMap;
+
+public class Main {
+    private static char findUniqueCharacter(String input){
+        HashMap<Character,Integer> charCount=new HashMap<>();
+        //char[] arr=input.toCharArray();
+        for (char c : input.toCharArray()) {
+            charCount.put(c, charCount.getOrDefault(c,0)+1);
+
+            
+        }
+        for (char c : input.toCharArray()) {
+            if (charCount.get(c)==1) {
+                return c;
+                
+            }
+            
+        }
+        return '\0';
+
+    }
+    public static void main(String[] args) {
+        String str="AABBICCE";
+        char firstUniqueCharacter=findUniqueCharacter(str);
+        if (firstUniqueCharacter!='\0') {
+            System.out.println("First Unique Character is : "+ firstUniqueCharacter);
+
+            
+        }else{
+            System.out.println("No Unique Character");
+        }
+    }
+ 
+    
+ }
+
+-------------------------------------------------
+//HashSet
+
+import java.util.HashSet;
+
+public class Main {
+
+    public static void main(String[] args) {
+        HashSet<String> hashSet=new HashSet<>();
+        hashSet.add("Amit");
+        hashSet.add("Yuvraj");
+        hashSet.add("Satyam");
+        hashSet.add("Shivam");
+        hashSet.add("Khushi");
+        hashSet.add("Ayesha");
+        hashSet.add("Ayesha");
+        hashSet.add("Shivam");
+        hashSet.add("Yuvraj");
+        System.out.println("HashSet is : "+hashSet);
+        System.out.println("The Size is : "+ hashSet.size());
+        System.out.println("The hashSet is Empty ?: "+ hashSet.isEmpty());
+
+        boolean hasShivansh=hashSet.contains("Shivansh");
+        System.out.println("Is Shivansh Present ?: "+ hasShivansh);
+
+        boolean removed=hashSet.remove("Shivam");
+        System.out.println("Removed Shivam ?: "+ removed);
+
+        System.out.println("HashSet is : "+hashSet);
+        System.out.println("The Size is : "+ hashSet.size());
+        System.out.println("The hashSet is Empty ?: "+ hashSet.isEmpty());
+
+        System.out.println("HashSet is: ");
+        for (String str : hashSet) {
+            System.out.println(str);
+            
+        }
+        hashSet.clear();
+
+        System.out.println("HashSet is : "+hashSet);
+        System.out.println("The Size is : "+ hashSet.size());
+        System.out.println("The hashSet is Empty ?: "+ hashSet.isEmpty());
+
+
+    }
+}   
+-------------------------------------------------
+//Array is Contiguous or Not
+
+import java.util.HashSet;
+
+public class Main {
+    private static boolean isContiguous(int[] arr) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            set.add(num);
+
+        }
+
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+
+        for (int num : arr) {
+            min = Math.min(min, num);
+            max = Math.max(max, num);
+
+        }
+        for (int i = min; i <=max; i++) {
+            if (!set.contains(i)) {
+                return false;
+                
+            }
+            
+        }
+        return true;
+
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = { 1, 2, 3, 4, 5, 6 };
+        int[] arr2 = { 5, 6, 4, 9, 8 };
+        int[] arr3 = { 1, 6, 5, 4, 2, 3 };
+        System.out.println("Array1 is Contiguous: " + isContiguous(arr1));
+        System.out.println("Array2 is Contiguous: " + isContiguous(arr2));
+        System.out.println("Array3 is Contiguous: " + isContiguous(arr3));
+
+    }
+}
+-------------------------------------------------
+//Array is Contiguous or Not
+
+import java.util.HashSet;
+
+public class Main {
+    private static boolean isContiguous(int[] arr) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            set.add(num);
+
+        }
+
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+
+        for (int num : arr) {
+            min = Math.min(min, num);
+            max = Math.max(max, num);
+
+        }
+        int size=max-min+1;
+        return arr.length==size;
+
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = { 1, 2, 3, 4, 5, 6 };
+        int[] arr2 = { 5, 6, 4, 9, 8 };
+        int[] arr3 = { 1, 6, 5, 4, 2, 3 };
+        System.out.println("Array1 is Contiguous: " + isContiguous(arr1));
+        System.out.println("Array2 is Contiguous: " + isContiguous(arr2));
+        System.out.println("Array3 is Contiguous: " + isContiguous(arr3));
+
+    }
+}
+-------------------------------------------------
+//pair With given Sum
+
+import java.util.HashSet;
+
+public class Main {
+
+    private static boolean twoSum(int[] arr,int target){
+        HashSet<Integer> set= new HashSet<>();
+        for (int num : arr) {
+            int difference=target-num;
+            if (set.contains(difference)) {
+                return true;
+                
+            }
+            set.add(num);
+            
+        }
+        return false;
+
+
+    }
+
+    public static void main(String[] args) {
+        int[] arr={2,7,11,15};
+        int target=9;
+        boolean pairExists=twoSum(arr, target);
+        System.out.println("Does Pair Exists? :"+ pairExists);
+    }
+}
+
+-------------------------------------------------
+// 1. Two Sum
+//https://leetcode.com/problems/two-sum/
+import java.util.HashMap;
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+
+        HashMap<Integer,Integer> map=new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int difference=target-nums[i];
+            if (map.containsKey(difference)) {
+                return new int[]{map.get(difference),i};
+                
+            }
+            map.put(nums[i],i);
+            
+        }
+        return new int[]{};
+        
+    }
+}   
+
+--------------------------------------------------
+// 1365. How Many Numbers Are Smaller Than the Current Number
+//https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+
+import java.util.Arrays;
+import java.util.HashMap;
+
+class Solution {
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        int n=nums.length;
+        HashMap<Integer,Integer> freqMap=new HashMap<>();
+        for (int num : nums) {
+            freqMap.put(num, freqMap.getOrDefault(num, 0)+1);
+            
+        }
+        int[] uniqueArr=new int[freqMap.size()];
+        int index=0;
+        for (int key : freqMap.keySet()) {
+            uniqueArr[index++]=key;
+            
+        }
+
+        Arrays.sort(uniqueArr);
+        HashMap<Integer,Integer> map=new HashMap<>();
+        int countSofar=0;
+        for (int num : uniqueArr) {
+            map.put(num, countSofar);
+            countSofar+=freqMap.get(num);
+            
+        }
+        int[] result=new int[n];
+        for (int i = 0; i < n; i++) {
+            result[i]=map.get(nums[i]);
+            
+        }
+        return result;
+
+
+        
+    }
+}
+---------------------------------------------------
+// 1365. How Many Numbers Are Smaller Than the Current Number(using TreeMap)
+//https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+class Solution {
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        int n = nums.length;
+        TreeMap<Integer, Integer> freqMap = new TreeMap<>();
+        for (int num : nums) {
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
+
+        }
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int countSofar = 0;
+
+        for (Map.Entry<Integer, Integer> entry : freqMap.entrySet()) {
+            int number = entry.getKey();
+            int frequency = entry.getValue();
+            map.put(number, countSofar);
+            countSofar += frequency;
+
+        }
+        int[] result = new int[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = map.get(nums[i]);
+
+        }
+        return result;
+
+    }
+}
+-------------------------------------------------
+//49. Group Anagrams
+//https://leetcode.com/problems/group-anagrams/
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        HashMap<String, List<String>> map = new HashMap<>();
+
+        for (String str : strs) {
+            char[] chars = str.toCharArray();
+            Arrays.sort(chars);
+            String key = new String(chars);
+            if (!map.containsKey(key)) {
+                map.put(key, new ArrayList<>());
+
+            }
+            map.get(key).add(str);
+
+        }
+        return new ArrayList<>(map.values());
+
+    }
+}
+
+-------------------------------------------------
+//128. Longest Consecutive Sequence
+//https://leetcode.com/problems/longest-consecutive-sequence/
+
+import java.util.HashSet;
+
+class Solution {
+    public int longestConsecutive(int[] nums) {
+        if (nums.length==0) {
+            return 0;
+
+            
+        }
+        HashSet<Integer> set=new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+            
+        }
+        int longest=0;
+        for (int num : set) {
+            if (!set.contains(num-1)) {
+                int currentNum=num;
+                int currentLength=1;
+                while (set.contains(currentNum+1)) {
+                    currentNum++;
+                    currentLength++;
+                    
+                }
+                longest=Math.max(longest, currentLength);
+                
+            }
+            
+        }
+        return longest;
+
+        
+    }
+}
+-------------------------------------------------
+//https://leetcode.com/problems/contiguous-array/
+
+// arr= [0,1,1,1,1,1,0,0,0]
+import java.util.HashMap;
+
+class Solution {
+    public int findMaxLength(int[] nums) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int sum = 0;
+        int maxLen = 0;
+        map.put(0, -1);
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0) {
+                sum -= 1;
+
+            } else {
+                sum += 1;
+            }
+            if (map.containsKey(sum)) {
+                maxLen = Math.max(maxLen, i - map.get(sum));
+
+            } else {
+                map.put(sum, i);
+            }
+
+        }
+        return maxLen;
+
+    }
+}
+-------------------------------------------------
+//String 
+
+public class Main {
+
+    public static void main(String[] args) {
+        String str="Hello World";
+
+        int length=str.length();
+        System.out.println("The Length is : "+ length);
+
+        char first=str.charAt(0);
+        System.out.println("Character at first position is : "+ first);
+
+        char last=str.charAt(str.length()-1);
+        System.out.println("Character at first position is : "+ last);
+
+        String lower=str.toLowerCase();
+        System.out.println("Lowercase :  : "+ lower);
+
+        String upper=str.toUpperCase();
+        System.out.println("UpperCase :  : "+ upper);
+
+        String concatenated=str.concat(" Java");
+        System.out.println("Concatenated :  : "+ concatenated);
+
+        String subString=str.substring(5);
+        System.out.println("Substring is :  : "+ subString);
+
+
+        String subStringRange=str.substring(5,10);
+        System.out.println("Substring Range is : "+ subStringRange);
+
+
+        String replaced=str.replace("World","Java");
+        System.out.println("The String is : "+ replaced);
+
+        String str1="       Amit             ";
+        System.out.println("The str1 is : "+ str1);
+        String trimmed=str1.trim();
+        System.out.println("The Trimmed String is : "+ trimmed);
+
+        boolean starts=str.startsWith("Hello");
+        System.out.println("Does String Starts with : "+starts);
+
+        boolean ends=str.endsWith("World");
+        System.out.println("Does String Ends with : "+ends);
+
+        boolean contains=str.contains("World");
+        System.out.println("Does it Contain ?: "+contains);
+
+        String emptyString="";
+        boolean isEmpty=emptyString.isEmpty();
+        System.out.println("Is String Empty ?: "+isEmpty );
+
+        String setence="My name is Amit Kumar Ghosh";
+        String[] splitWords=setence.split(" ");
+        for (String word : splitWords) {
+            System.out.println(word);
+            
+        }        
+    }
+}
+
+-------------------------------------------------
+// String
+public class Main {
+
+    public static void main(String[] args) {
+        String str="Amit";
+        String str1="Amit";
+        String str2=new String("Amit");
+
+        System.out.println(str.equals(str1));
+        System.out.println(str1.equals(str2));
+        System.out.println(str2.equals(str));
+    }
+}
+
+-------------------------------------------------
+// String
+public class Main {
+
+    public static void main(String[] args) {
+        String str="Amit";
+        String str1="Amit";
+        String str2="amit";
+        String str3=new String("Amit");
+
+        System.out.println(str.equals(str1));
+        System.out.println(str1.equals(str3));
+        System.out.println(str3.equals(str));
+        System.out.println(str2.equals(str));
+        System.out.println(str2.equalsIgnoreCase(str));
+        
+    }
+}
+
+
+-------------------------------------------------
+// String
+public class Main {
+
+    public static void main(String[] args) {
+        String str="Amit";
+        String str1="Amit";
+        String str2="amit";
+        String str3=new String("Amit");
+        String str4=new String("Amit").intern();
+
+        System.out.println(str.equals(str1));
+        System.out.println(str1.equals(str3));
+        System.out.println(str3.equals(str));
+        System.out.println(str2.equals(str));
+        System.out.println(str2.equalsIgnoreCase(str));
+
+        System.out.println(str==str1);
+        System.out.println(str1==str2);
+        System.out.println(str3==str1);
+        System.out.println(str==str4);
+
+
+        System.out.println(str.compareTo(str1));
+        System.out.println(str2.compareTo(str1));
+        System.out.println(str1.compareTo(str2));
+
+        
+        
+    }
+}
+
+
+-------------------------------------------------
+//String Methods .equals() // == // .compareTo()  
+public class Main {
+
+    public static void main(String[] args) {
+        String str = "Amit";
+        String str1 = "Amit";
+        String str2 = "amit";
+        String str3 = new String("Amit");
+
+        System.out.println(str.equals(str1));
+        System.out.println(str1.equals(str3));
+        System.out.println(str3.equals(str));
+        System.out.println(str2.equals(str));
+        System.out.println(str2.equalsIgnoreCase(str));
+
+        System.out.println(str==str1);
+        System.out.println(str1==str2);
+        System.out.println(str3==str1);
+
+        System.out.println(str.compareTo(str1));
+        System.out.println(str2.compareTo(str1));
+        System.out.println(str1.compareTo(str2));
+
+    }
+}
+-------------------------------------------------
+//Reverse a string 
+
+public class Main {
+    private static String reverseString(String str){
+        char[] charArr=str.toCharArray();
+        int left=0;
+        int right=charArr.length-1;
+        while (left<right) {
+            char temp=charArr[left];
+            charArr[left]=charArr[right];
+            charArr[right]=temp;
+
+            left++;
+            right--;
+
+            
+        }
+        return new String(charArr);
+
+
+    }
+
+    public static void main(String[] args) {
+        String input="Hello";
+        String reversed=reverseString(input);
+        System.out.println("Reversed String is :"+ reversed);
+    }
+}
+
+
+-------------------------------------------------
+//Reverse a string  using Recursion
+
+public class Main {
+    private static String reverseString(String str){
+        if (str.isEmpty() || str.length()==1) {
+            return str;
+            
+        }
+        return reverseString(str.substring(1)) + str.charAt(0);
+
+
+    }
+
+    public static void main(String[] args) {
+        String input="Hello";
+        String reversed=reverseString(input);
+        System.out.println("Reversed String is :"+ reversed);
+    }
+}
+
+-------------------------------------------------
+//Reverse a string  using StringBuilder
+
+public class Main {
+    private static String reverseString(String str){
+        return new StringBuilder(str).reverse().toString();
+
+
+    }
+1
+    public static void main(String[] args) {
+        String input="Hello";
+        String reversed=reverseString(input);
+        System.out.println("Reversed String is :"+ reversed);
+    }
+}
+
+-------------------------------------------------
+//Check if String is palindrom or Not
+
+//input : "     Madam      "
+//output: true
+
+public class Main {
+    private static boolean isPalindrome(String str){
+        str=str.toLowerCase().trim();
+        int left=0;
+        int right=str.length()-1;
+        while (left<right) {
+            if (str.charAt(left)!=str.charAt(right)) {
+                return false;
+                
+            }
+            left++;
+            right--;
+            
+        }
+        return true;
+
+    }
+
+    public static void main(String[] args) {
+        String str="     Madam      ";
+        boolean result=isPalindrome(str);
+        System.out.println("The Palindrome String is : "+ result);
+        
+    }
+}
+
+
+-------------------------------------------------
+//Count no. of vowels in a String
+//input: "Hello World"
+//output: 3
+public class Main {
+    public static int countVowel(String str){
+        str=str.toLowerCase();
+        int count=0;
+        for (int i = 0; i <str.length(); i++) {
+            char ch=str.charAt(i);
+            if (ch=='a' ||ch=='e' ||ch=='i' ||ch=='o' ||ch=='u'  ) {
+                count++;
+                
+            }
+            
+        }
+        return count;
+
+        
+
+
+    }
+
+    public static void main(String[] args) {
+        String input = "hEllo wOrld";
+        int result = countVowel(input);
+        System.out.println("The Number of Vowels are: " + result);
+    }
+}
+
+-------------------------------------------------
+//Count no. of vowels in a String using HashSet
+//input: "Hello World"
+//output: 3
+
+import java.util.HashSet;
+
+public class Main {
+    public static int countVowel(String str) {
+        str=str.toLowerCase();
+        HashSet<Character> hashSet = new HashSet<>();
+        hashSet.add('a');
+        hashSet.add('e');
+        hashSet.add('i');
+        hashSet.add('o');
+        hashSet.add('u');
+        int count=0;
+        for (char c : str.toCharArray()) {
+            if (hashSet.contains(c)) {
+                count++;
+                
+            }
+            
+        }
+        return count;
+
+    }
+
+    public static void main(String[] args) {
+        String input = "hEllo wOrld";
+        int result = countVowel(input);
+        System.out.println("The Number of Vowels are: " + result);
+    }
+}
+
+-------------------------------------------------
+//find first non repeated Character in a string 
+//input: swiss
+//output: w
+
+// not a good way of solving use hashmap
+
+ 
+
+public class Main {
+    public static char firstNonRepeated(String str) {
+        for (int i = 0; i < str.length(); i++) {
+            char c=str.charAt(i);
+            int count=0;
+            for (int j = 0; j < str.length(); j++) {
+                if (str.charAt(j)==c) {
+                    count++;
+                }
+            }
+            if (count==1) {
+                return c;   
+            }
+        }
+        return '\0';
+    }
+
+    public static void main(String[] args) {
+        String input = "hEllo wOrld";
+        char result = firstNonRepeated(input);
+        System.out.println("The first unique character is: " + result);
+    }
+}
+
+
+-------------------------------------------------
+//check if two strings are anagram
+//intput: listen
+//output: silent
+
+public class Main {
+    public static boolean anagram(String str, String str1) {
+
+        if (str.length() != str1.length()) {
+            return false;
+
+        }
+        int[] count = new int[256];
+        for (int i = 0; i < str1.length(); i++) {
+            count[str.charAt(i)]++;
+            count[str1.charAt(i)]--;
+
+        }
+        for (int c : count) {
+            if (c!=0) {
+                return false;
+                
+            }
+            
+        }
+        return true;
+
+    }
+
+    public static void main(String[] args) {
+        String input = "llisten";
+        String input1 = "silent";
+        boolean result = anagram(input, input1);
+        System.out.println("are they anagram ?: " + result);
+    }
+}
+
+-------------------------------------------------
+//Convert the first letter of each word to uppercase
+//input: my country name is India
+//output: My Country Name Is India
+
+public class Main {
+    public static String capitalFirstLetter(String str) {
+        if (str==null || str.isEmpty()) {
+            return str;
+            
+
+        }
+        String[] words=str.trim().split(" ");
+        StringBuilder result=new StringBuilder();
+        for (String word : words) {
+            if (!word.isEmpty()) {
+                String capitilizeWord=word.substring(0,1).toUpperCase()+ word.substring(1) .toLowerCase();
+                result.append(capitilizeWord).append(" ");
+                
+                
+            }
+            
+        }
+        return result.toString().trim();
+
+
+    }
+
+    public static void main(String[] args) {
+        String input = "          heLLo worLD   ";
+        String result = capitalFirstLetter(input);
+        System.out.println("The String is : " + result);
+
+    }
+}
+
+-------------------------------------------------
+//https://leetcode.com/problems/maximum-average-subarray-i/
+class Solution {
+    public double findMaxAverage(int[] nums, int k) {
+        int n=nums.length;
+        int windowSum=0;
+        for (int i = 0; i <k; i++) {
+            windowSum+=nums[i];
+
+            
+        }
+        int maxSum=windowSum;
+        for (int i = k; i <n; i++) {
+            windowSum+=nums[i];
+            windowSum-=nums[i-k];
+            maxSum=Math.max(maxSum, windowSum);
+            
+        }
+        return (double)maxSum/k;
+
+        
+    }
+}
+
+
+-------------------------------------------------
+//https://leetcode.com/problems/minimum-size-subarray-sum/
+class Solution {
+    public int minSubArrayLen(int target, int[] nums) {
+        int n=nums.length;
+        int left=0;
+        int sum=0;
+        int minLength=Integer.MAX_VALUE;
+        for (int right = 0; right < n; right++) {
+            sum+=nums[right];
+            while (sum>=target) {
+                minLength=Math.min(minLength, right-left+1);
+                sum-=nums[left];
+                left++;
+                
+            }
+            
+        }
+        return minLength==Integer.MAX_VALUE ? 0: minLength;
+    }
+}
+
+
+-------------------------------------------------
+//https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/
+class Solution {
+    public int numOfSubarrays(int[] arr, int k, int threshold) {
+        int n=arr.length;
+        int requiredSum=k*threshold;
+        int windowSum=0;
+        int count=0;
+
+        for (int i = 0; i <k; i++) {
+            windowSum+=arr[i];
+            
+        }
+        if (windowSum>=requiredSum) {
+            count++;
+            
+        }
+        for (int i = k; i < n; i++) {
+            windowSum+=arr[i];
+            windowSum-=arr[i-k];
+            if (windowSum>=requiredSum) {
+                count++;
+                
+            }
+            
+        }
+        return count;
+        
+    }
+}
+
+-------------------------------------------------
+//https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
+
+class Solution {
+    public int minimumRecolors(String blocks, int k) {
+        int n = blocks.length();
+        int whiteCount = 0;
+        for (int i = 0; i < k; i++) {
+            if (blocks.charAt(i) == 'W') {
+                whiteCount++;
+            }
+
+        }
+        int minNoOperation=whiteCount;
+        for (int i = k; i < n; i++) {
+            if (blocks.charAt(i)=='W') {
+                whiteCount++;
+                
+            }
+            if (blocks.charAt(i-k)=='W') {
+                whiteCount--;
+                
+            }
+            minNoOperation=Math.min(minNoOperation, whiteCount);
+            
+        }
+        return minNoOperation;
+
+    }
+}
+
+-------------------------------------------------
+//https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/
+class Solution {
+    public int countGoodSubstrings(String s) {
+        int n = s.length();
+        if (n < 3) {
+            return 0;
+
+        }
+        int count = 0;
+        for (int i = 0; i <= n - 3; i++) {
+            char x = s.charAt(i);
+            char y = s.charAt(i + 1);
+            char z = s.charAt(i + 2);
+            if (x != y && x != z && y != z) {
+                count++;
+
+            }
+
+
+        }
+        return count;
+
+    }
+}
+
+
+-------------------------------------------------
+//https://leetcode.com/problems/maximum-subarray/description/
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int currentSum = nums[0];
+        int maxSum = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            currentSum = Math.max(nums[i], currentSum + nums[i]);
+            maxSum = Math.max(maxSum, currentSum);
+
+        }
+        return maxSum;
+
+    }
+}
+
+-------------------------------------------------
+//https://leetcode.com/problems/maximum-sum-circular-subarray/
+class Solution {
+    public int maxSubarraySumCircular(int[] nums) {
+        int totalSum = 0;
+
+        int maxSum = nums[0];
+        int currentMax = nums[0];
+
+        int minSum = nums[0];
+        int currentMin = nums[0];
+
+        for (int i = 0; i < nums.length; i++) {
+            totalSum += nums[i];
+            if (i > 0) {
+                // Normal Kadanes
+                currentMax = Math.max(nums[i], currentMax + nums[i]);
+                maxSum = Math.max(currentMax, maxSum);
+
+                // reverse Kadanes
+
+                currentMin = Math.min(nums[i], currentMin + nums[i]);
+                minSum = Math.min(currentMin, minSum);
+
+            }
+
+        }
+        if (maxSum < 0) {
+            return maxSum;
+
+        }
+        return Math.max(maxSum, totalSum - minSum);
+
+    }
+}
+
+-------------------------------------------------
+//152. maximum-product-subarray
+//https://leetcode.com/problems/maximum-product-subarray/
+//2,3,-2,4
+
+
+class Solution {
+    public int maxProduct(int[] nums) {
+        int maxCurrent = nums[0];
+        int minCurrent = nums[0];
+
+        int result = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            int current = nums[i];
+            int prevMax = maxCurrent;
+
+            maxCurrent = Math.max(current, Math.max(prevMax * current, minCurrent * current));
+            minCurrent = Math.min(current, Math.min(prevMax * current, minCurrent * current));
+
+            result = Math.max(result, maxCurrent);
+        }
+
+        return result;
+
+    }
+}
+-------------------------------------------------
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+
+class Solution {
+    public int maxProfit(int[] prices) {
+        int minPrice=prices[0];
+        int maxProfit=0;
+
+        for (int i = 1; i < prices.length; i++) {
+            minPrice=Math.min(minPrice, prices[i]);
+            int profit=prices[i]-minPrice;
+            maxProfit=Math.max(maxProfit, profit);
+            
+        }
+        return maxProfit;
+        
+    }
+}
+
+-------------------------------------------------
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+
+class Solution {
+    public int maxProfit(int[] prices) {
+        int profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] > prices[i - 1]) {
+                profit += prices[i] - prices[i - 1];
+
+            }
+
+        }
+        return profit;
+
+    }
+}
+
+------------------------------------------------------
+// Bubble Sort 
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] nums = {5,2,6,8,3,1};
+        int n = nums.length;
+
+        for (int i = 0; i < n -1 ; i++) {
+            for (int j = 0; j < n - 1 - i; j++) {
+                if (nums[j] > nums[j+1]) {
+                    int temp = nums[j];
+                    nums[j] = nums[j+1];
+                    nums [j+1] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(nums));
+    }
+}
+--------------------------------------------------
+// Bubble sort optimized 
+//Optimized Bubble Sort
+public class Main {
+
+    private static void bubbleSort(int[] nums) {
+        int n = nums.length;
+        boolean swapped;
+
+        for (int i = 0; i < n - 1; i++) {
+            swapped = false;
+            for (int j = 0; j < n - 1 - i; j++) {
+                if (nums[j] > nums[j + 1]) {
+                    int temp = nums[j];
+                    nums[j] = nums[j + 1];
+                    nums[j + 1] = temp;
+                    swapped = true;
+
+                }
+
+            }
+            if (!swapped) {
+                break;
+
+            }
+
+        }
+        System.out.println(count);
+
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 5, 2, 6, 4, 7, 8, 1, 3 };
+        bubbleSort(nums);
+        System.out.println("Sorted Array is : ");
+        for (int num : nums) {
+            System.out.print(num + " ");
+
+        }
+    }
+}
+-------------------------------------------------------
+//  Selection Sort
+public class Main {
+
+    private static void selectionSort(int[] nums) {
+        int n = nums.length;
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < n; j++) {
+                if (nums[j] < nums[minIndex]) {
+                    minIndex = j;
+
+                }
+
+            }
+            int temp = nums[i];
+            nums[i] = nums[minIndex];
+            nums[minIndex] = temp;
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 5, 2, 6, 4, 7, 8, 1, 3 };
+        selectionSort(nums);
+        System.out.println("Sorted Array is : ");
+        for (int num : nums) {
+            System.out.print(num + " ");
+
+        }
+    }
+}
+----------------------------------------------------
+//  Insertion Sort
+public class Main {
+
+    private static void insertionSort(int[] nums) {
+        int n = nums.length;
+        for (int i = 1; i < n; i++) {
+            int key = nums[i];
+            int j = i - 1;
+            while (j >= 0 && nums[j] > key) {
+                nums[j + 1] = nums[j];
+                j--;
+
+            }
+            nums[j + 1] = key;
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 5, 2, 6, 4, 7, 8, 1, 3 };
+        insertionSort(nums);
+        System.out.println("Sorted Array is : ");
+        for (int num : nums) {
+            System.out.print(num + " ");
+
+        }
+    }
+}
+-----------------------------------------------
+//Quick Sort
+public class Main {
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+
+    }
+
+    public static int partition(int[] arr, int start, int end) {
+        int pivot = arr[end];
+        int pIndex = start;
+        for (int i = start; i < end; i++) {
+            if (arr[i] < pivot) {
+                swap(arr, pIndex, i);
+                pIndex++;
+
+            }
+
+        }
+        swap(arr, end, pIndex);
+        return pIndex;
+
+    }
+
+    public static void quickSort(int[] arr, int start, int end) {
+        if (start < end) {
+            int pIndex = partition(arr, start, end);
+            quickSort(arr, start, pIndex - 1);
+            quickSort(arr, pIndex + 1, end);
+
+        }
+    }
+
+    public static void display(int[] arr) {
+        System.out.println("The Sorted array is : ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 5, 2, 6, 4, 7, 8, 1, 3 };
+        int size = nums.length;
+        quickSort(nums, 0, size - 1);
+        display(nums);
+
+    }
+}
+----------------------------------------------
+//Randomized Quick Sort
+
+import java.util.Random;
+
+public class Main {
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+
+    }
+
+    public static int partition(int[] arr, int start, int end) {
+        
+        Random random=new Random();
+        int randomIndex=start+random.nextInt(end-start+1);
+        swap(arr, randomIndex, end);
+
+        int pivot = arr[end];
+        int pIndex = start; 
+        for (int i = start; i < end; i++) {
+            if (arr[i] < pivot) {
+                swap(arr, pIndex, i);
+                pIndex++;
+
+            }
+
+        }
+        swap(arr, end, pIndex);
+        return pIndex;
+
+    }
+
+    public static void quickSort(int[] arr, int start, int end) {
+        if (start < end) {
+            int pIndex = partition(arr, start, end);
+            quickSort(arr, start, pIndex - 1);
+            quickSort(arr, pIndex + 1, end);
+
+        }
+    }
+
+    public static void display(int[] arr) {
+        System.out.println("The Sorted array is : ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 5, 2, 6, 4, 7, 8, 1, 3 };
+        int size = nums.length;
+        quickSort(nums, 0, size - 1);
+        display(nums);
+
+    }
+}
+
+
+----------------------------------------------
+//QuickSelect Algorithm
+
+import java.util.Random;
+
+public class Main {
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+
+    }
+
+    public static int partition(int[] arr, int start, int end) {
+
+        Random random = new Random();
+        int randomIndex = start + random.nextInt(end - start + 1);
+        swap(arr, randomIndex, end);
+
+        int pivot = arr[end];
+        int pIndex = start;
+        for (int i = start; i < end; i++) {
+            if (arr[i] < pivot) {
+                swap(arr, pIndex, i);
+                pIndex++;
+
+            }
+
+        }
+        swap(arr, end, pIndex);
+        return pIndex;
+
+    }
+
+    public static int quickSelect(int[] arr, int start, int end, int k) {
+        if (start <= end) {
+            int pIndex = partition(arr, start, end);
+            if (pIndex == k) {
+                return arr[pIndex];
+
+            } else if (pIndex > k) {
+                return quickSelect(arr, start, pIndex - 1, k);
+
+            } else {
+                return quickSelect(arr, pIndex + 1, end, k);
+
+            }
+
+        }
+        return -1;
+
+    }
+
+    public static void display(int[] arr) {
+        System.out.println("The Sorted array is : ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 57, 2, 6, 46, 7, 8, 1, 38 };
+        int size = nums.length;
+        int k = 3;// 3rd smallest element (0 based indexing)
+        int result=quickSelect(nums, 0, size - 1, k - 1);
+        System.out.println("3rd Smallest element is: "+ result);
+        //display(nums);
+
+    }
+}
+
+-----------------------------------------------
+//Merge Sort
+
+public class Main {
+
+    public static void merge(int[] arr, int left, int mid, int right) {
+        int n1 = mid - left + 1;
+        int n2 = right - mid;
+        int[] L = new int[n1];
+        int[] R = new int[n2];
+
+        for (int i = 0; i < n1; i++) {
+            L[i] = arr[left + i];
+
+        }
+        for (int j = 0; j < n2; j++) {
+            R[j] = arr[mid + 1 + j];
+
+        }
+
+        int i = 0, j = 0, k = left;
+        while (i < n1 && j < n2) {
+            if (L[i] <= R[j]) {
+                arr[k] = L[i];
+                i++;
+
+            } else {
+                arr[k] = R[j];
+                j++;
+
+            }
+            k++;
+
+        }
+        while (i < n1) {
+            arr[k] = L[i];
+            i++;
+            k++;
+
+        }
+        while (j < n2) {
+            arr[k] = R[j];
+            j++;
+            k++;
+
+        }
+
+    }
+
+    public static void mergeSort(int[] arr, int left, int right) {
+        if (left < right) {
+            int mid = left + (right - left) / 2;
+            mergeSort(arr, left, mid);
+            mergeSort(arr, mid + 1, right);
+            merge(arr, left, mid, right);
+
+        }
+
+    }
+
+    public static void display(int[] arr) {
+        System.out.println("The Sorted array is : ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 38, 27, 43, 3, 9, 82, 10 };
+        int size = nums.length;
+        mergeSort(nums, 0, size - 1);
+        display(nums);
+
+    }
+}
+----------------------------------------------
+
+-----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+-----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+-----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+// 75. Sort Colors
+class Solution {
+    public void sortColors(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1;
+        int mid = 0;
+
+        while (mid <= right) {
+            if (nums[mid] == 0) {
+                int temp = nums[left];
+                nums[left] = nums[mid];
+                nums[mid] = temp;
+                left++;
+                mid++;
+            } else if (nums[mid] == 1) {
+                mid++;
+            } else {
+                int temp = nums[mid];
+                nums[mid] = nums[right];
+                nums[right] = temp;
+                right--;
+            }
+
+        }
+
+    }
+}
+--------------------------------------------------
+//LinkedList
+
+class LinkedList {
+
+    class Node {
+        public int data;
+        public Node next;
+
+        public Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+
+    }
+
+    public Node head;
+    public Node tail;
+
+    public void insertAtHead(int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+            tail = newNode;
+
+        } else {
+            newNode.next = head;
+            head = newNode;
+        }
+    }
+
+    public void insertAtTail(int data) {
+        Node newNode = new Node(data);
+        if (tail == null) {
+            head = newNode;
+            tail = newNode;
+
+        } else {
+            tail.next = newNode;
+            tail = newNode;
+        }
+    }
+
+    public void inserAtMiddle(int data, int position) {
+        if (position == 1) {
+            insertAtHead(data);
+
+        } else if (position > size()) {
+            insertAtTail(data);
+
+        } else {
+            Node temp = head;
+            int count = 1;
+
+            while (count < position - 1) {
+                temp = temp.next;
+                count++;
+
+            }
+            Node newNode = new Node(data);
+            newNode.next = temp.next;
+            temp.next = newNode;
+
+        }
+
+    }
+
+    public void deleteNode(int position) {
+        if (position == 1) {
+            if (head == tail) {
+                tail = null;
+
+            }
+            head = head.next;
+
+        } else {
+            Node curr = head;
+            Node prev = null;
+            int count = 1;
+            while (count < position) {
+                prev = curr;
+                curr = curr.next;
+                count++;
+
+            }
+            prev.next = curr.next;
+            if (curr == tail) {
+                tail = prev;
+
+            }
+        }
+
+    }
+
+    public int size() {
+        int count = 0;
+        Node temp = head;
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+
+        }
+        return count;
+
+    }
+
+    public void print() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+
+        }
+        System.out.println();
+
+    }
+
+    public static void main(String[] args) {
+
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insertAtHead(10);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtHead(20);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtHead(30);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtHead(40);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtHead(50);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtHead(60);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtTail(60);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtTail(70);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtTail(80);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.insertAtTail(90);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.inserAtMiddle(100, 1);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.inserAtMiddle(500, 14);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.inserAtMiddle(500, 5);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.deleteNode(1);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.deleteNode(linkedList.size());
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+        linkedList.deleteNode(7);
+        linkedList.print();
+        System.out.println("Head is : " + linkedList.head.data);
+        System.out.println("Tail is : " + linkedList.tail.data);
+        System.out.println("Size is : " + linkedList.size());
+
+    }
+
+}
+----------------------------------------------
+
+-----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+----------------------------------------------
+
+-----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+----------------------------------------------
+
+-----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+
+----------------------------------------------
+//Binary Tree
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+class Node {
+    public int data;
+    public Node left;
+    public Node right;
+
+    public Node(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
+
+}
+
+public class BinaryTree {
+    static Scanner scanner = new Scanner(System.in);
+
+    public static Node createTree() {
+        System.out.println("Enter the data: ");
+        int data = scanner.nextInt();
+
+        if (data == -1) {
+            return null;
+
+        }
+        Node root = new Node(data);
+        System.out.println("Enter data for the left Side of the tree: "+data);
+        root.left = createTree();
+
+        System.out.println("Enter data for the right Side of the tree: "+ data);
+        root.right = createTree();
+
+        return root;
+
+    }
+
+    public static void inOrder(Node root) {
+        if (root == null) {
+            return;
+
+        }
+        // LNR
+        inOrder(root.left);
+        System.out.print(root.data + " ");
+        inOrder(root.right);
+
+    }
+
+    public static void preOrder(Node root) {
+        if (root == null) {
+            return;
+
+        }
+        // NLR
+        System.out.print(root.data + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+
+    }
+
+    public static void postOrder(Node root) {
+        if (root == null) {
+            return;
+
+        }
+        // LRN
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.data + " ");
+
+    }
+
+    public static void levelOrder(Node root) {
+        if (root == null) {
+            return;
+        }
+
+        Queue<Node> queue=new LinkedList<>();
+        queue.add(root);
+        queue.add(null);
+
+        while (!queue.isEmpty()) {
+            Node temp=queue.poll();
+            if (temp!=null) {
+                System.out.print(temp.data+" ");
+                if (temp.left!=null) {
+                    queue.add(temp.left);
+                    
+                }
+                if (temp.right!=null) {
+                    queue.add(temp.right);
+                    
+                }
+                
+            }else{
+                System.out.println();
+                if (!queue.isEmpty()) {
+                    queue.add(null);
+                    
+                }
+
+            }
+            
+        }
+
+
+    }
+
+    public static int findMax(Node root){
+        if (root==null) {
+            return Integer.MIN_VALUE;
+            
+        }
+        int leftMax=findMax(root.left);
+        int rightMax=findMax(root.right);
+        return Math.max(root.data, Math.max(leftMax, rightMax));
+    }
+
+    public static int findMin(Node root){
+        if (root==null) {
+            return Integer.MAX_VALUE;
+            
+        }
+        int leftMin=findMin(root.left);
+        int rightMin=findMin(root.right);
+        return Math.min(root.data, Math.min(leftMin, rightMin));
+    }
+
+    public static boolean search(Node root,int key){
+        if (root==null) {
+            return false;
+            
+        }
+        if (root.data==key) {
+            return true;
+            
+        }
+        boolean foundLeft=search(root.left, key);
+        boolean foundRight=search(root.right, key);
+        return foundLeft || foundRight;
+    }
+
+    public static int sumOfLeafNodes(Node root){
+        if (root==null) {
+            return 0;
+            
+        }
+        if (root.left==null && root.right==null) {
+            return root.data;
+            
+        }
+        return sumOfLeafNodes(root.left)+ sumOfLeafNodes(root.right);
+
+    }
+
+    public static void main(String[] args) {
+        //Node root=createTree(); // recursively
+        Node root=new Node(10); // manually
+        root.left=new Node(20);
+        root.left.left=new Node(40);
+        root.left.left.left=new Node(20);
+        root.left.right=new Node(50);
+        root.left.right.right=new Node(55);
+        root.left.left.right=new Node(25);
+        root.right=new Node(30);
+        root.right.left=new Node(60);
+
+        System.out.println("Inorder traversal is : ");
+        inOrder(root);
+
+        System.out.println("\nPreorder traversal is : ");
+        preOrder(root);
+
+        System.out.println("\nPostorder traversal is : ");
+        postOrder(root);
+
+        System.out.println("\nLevelorder traversal is : ");
+        levelOrder(root);
+
+        int max=findMax(root);
+        System.out.println("\nMax value is : "+ max);
+
+        int min=findMin(root);
+        System.out.println("\nMin value is : "+ min);
+
+        System.out.println("Enter the Value to Search: ");
+        int key=scanner.nextInt();
+        boolean found=search(root, key);
+        if (found) {
+            System.out.println(key+ " is Present");
+            
+        }else{
+             System.out.println(key+ " is not Present");
+        }
+
+        int sumOfLeafNodes=sumOfLeafNodes(root);
+        System.out.println("Sum of leaf nodes : "+ sumOfLeafNodes);
+
+
+    }
+
+}
+-------------------------------------------------------------
+//Binary search  Tree
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+class Node {
+    public int data;
+    public Node left;
+    public Node right;
+
+    public Node(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
+
+}
+
+public class BinarySearchTree {
+    static Scanner scanner = new Scanner(System.in);
+
+    public static Node insertToBST(Node root, int data) {
+        if (root == null) {
+            root = new Node(data);
+            return root;
+
+        }
+        if (data > root.data) {
+            root.right = insertToBST(root.right, data);
+
+        } else {
+            root.left = insertToBST(root.left, data);
+
+        }
+
+        return root;
+
+    }
+
+    public static Node userInput(Node root) {
+        int data = scanner.nextInt();
+        while (data != -1) {
+            root = insertToBST(root, data);
+            data = scanner.nextInt();
+
+        }
+        return root;
+
+    }
+
+    public static void inOrder(Node root) {
+        if (root == null) {
+            return;
+
+        }
+        // LNR
+        inOrder(root.left);
+        System.out.print(root.data + " ");
+        inOrder(root.right);
+
+    }
+
+    public static void preOrder(Node root) {
+        if (root == null) {
+            return;
+
+        }
+        // NLR
+        System.out.print(root.data + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+
+    }
+
+    public static void postOrder(Node root) {
+        if (root == null) {
+            return;
+
+        }
+        // LRN
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.data + " ");
+
+    }
+
+    public static void levelOrder(Node root) {
+        if (root == null) {
+            return;
+        }
+
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        queue.add(null);
+
+        while (!queue.isEmpty()) {
+            Node temp = queue.poll();
+            if (temp != null) {
+                System.out.print(temp.data + " ");
+                if (temp.left != null) {
+                    queue.add(temp.left);
+
+                }
+                if (temp.right != null) {
+                    queue.add(temp.right);
+
+                }
+
+            } else {
+                System.out.println();
+                if (!queue.isEmpty()) {
+                    queue.add(null);
+
+                }
+
+            }
+
+        }
+
+    }
+
+    public static Node findMax(Node root) {
+        Node temp = root;
+        while (temp != null) {
+            temp = temp.right;
+
+        }
+        return temp;
+
+    }
+
+    public static Node findMin(Node root) {
+        Node temp = root;
+        while (temp != null) {
+            temp = temp.left;
+
+        }
+        return temp;
+
+    }
+
+    public static Node deleteFromBST(Node root, int val) {
+        if (root == null) {
+            return root;
+
+        }
+        if (root.data == val) {
+            if (root.left == null && root.right == null) {
+                root = null;
+                return null;
+
+            }
+            if (root.left != null && root.right == null) {
+                Node temp = root.left;
+                root = null;
+                return temp;
+
+            }
+
+            if (root.left == null && root.right != null) {
+                Node temp = root.right;
+                root = null;
+                return temp;
+
+            }
+
+            if (root.left != null && root.right != null) {
+                int min = findMin(root.right).data;
+                root.data = min;
+                root.right = deleteFromBST(root.right, val);
+                return root;
+
+            }
+
+        } else if (root.data > val) {
+            root.left = deleteFromBST(root.left, val);
+
+        } else {
+            root.right = deleteFromBST(root.right, val);
+
+        }
+
+        return root;
+
+    }
+
+    public static void main(String[] args) {
+        Node root = null;
+        System.out.println("Give Data for input: ");
+        root=userInput(root);
+        // Node root=new Node(10);
+        // root.left=new Node(20);
+        // root.left.left=new Node(40);
+        // root.left.left.left=new Node(20);
+        // root.left.right=new Node(50);
+        // root.left.right.right=new Node(55);
+        // root.left.left.right=new Node(25);
+        // root.right=new Node(30);
+        // root.right.left=new Node(60);
+
+        System.out.println("Before Deletion BST is ");
+
+        System.out.println("Inorder traversal is : ");
+        inOrder(root);
+
+        System.out.println("\nPreorder traversal is : ");
+        preOrder(root);
+
+        System.out.println("\nPostorder traversal is : ");
+        postOrder(root);
+
+        System.out.println("\nLevelorder traversal is : ");
+        levelOrder(root);
+
+        int max = findMax(root).data;
+        System.out.println("\nMax value is : " + max);
+
+        int min = findMin(root).data;
+        System.out.println("\nMin value is : " + min);
+
+        System.out.println("After Deletion BST is ");
+
+
+        root=deleteFromBST(root, 55);
+
+        System.out.println("Inorder traversal is : ");
+        inOrder(root);
+
+        System.out.println("\nPreorder traversal is : ");
+        preOrder(root);
+
+        System.out.println("\nPostorder traversal is : ");
+        postOrder(root);
+
+        System.out.println("\nLevelorder traversal is : ");
+        levelOrder(root);
+
+        int max1 = findMax(root).data;
+        System.out.println("\nMax value is : " + max1);
+
+        int min1 = findMin(root).data;
+        System.out.println("\nMin value is : " + min1);
+
+    }
+
+}
+-------------------------------------------------------------
+//Heap or Priority Queue
+
+
+import java.util.PriorityQueue; // Import the PriorityQueue class
+
+public class PriorityQueueDemo {
+    public static void main(String[] args) {
+        // Create a PriorityQueue of Integer (min-heap by default)
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+        // Add elements to the priority queue
+        pq.add(30);   // Internally rearranged based on priority
+        pq.add(10);   // Smallest values have highest priority
+        pq.add(20);
+        pq.add(40);
+        pq.add(5);
+        pq.add(200);
+        pq.add(1);
+
+
+        // Print current state of the priority queue (internal structure)
+        System.out.println("Priority Queue: " + pq);
+
+        // Remove and return the element with highest priority (smallest element)
+        System.out.println("Removed: " + pq.poll()); // Removes 10
+
+        // Peek at the current highest-priority element (without removing)
+        System.out.println("Peek: " + pq.peek());    // Should be 20
+
+        // Final state of the queue after removal
+        System.out.println("Final Queue: " + pq);    // Should contain: [20, 30]
+    }
+}
+---------------------------------------------------------------------------------
+//Heap(Implementing Max Heap)
+
+public class Heap {
+    private int[] arr;
+    private int size;
+
+    public Heap() {
+        arr = new int[100];
+        arr[0] = -1;
+        size = 0;
+    }
+
+    public void insert(int val) {
+        size = size + 1;
+        int index = size;
+        arr[index] = val;
+        while (index > 1) {
+            int parent = index / 2;
+            if (arr[parent] < arr[index]) {
+                swap(arr, parent, index);
+                index = parent;
+            } else {
+                return;
+
+            }
+
+        }
+
+    }
+
+    public void delete() {
+        if (size == 0) {
+            System.out.println("Heap is Empty");
+            return;
+
+        }
+        int deleteValue = arr[1];
+        arr[1] = arr[size];
+        size--;
+        heapify(arr, size, 1);
+        System.out.println("Deleted Element is : " + deleteValue);
+
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = temp;
+
+    }
+
+    public static void heapify(int[] arr, int n, int i) {
+        int largest = i;
+        int left=2*i;
+        int right=2*i+1;
+
+        if (left<=n && arr[largest]<arr[left]) {
+            largest=left;
+            
+        }
+        if (right<=n && arr[largest]<arr[right]) {
+            largest=right;
+            
+        }
+        if (largest!=i) {
+            swap(arr, largest, i);
+            heapify(arr, n, largest);
+            
+        }
+
+    }
+
+    public static void heapSort(int[] arr,int n){
+        int size=n;
+        while (size>1) {
+            swap(arr, size, 1);
+            size--;
+            heapify(arr, size, 1);
+            
+        }
+
+    }
+    public void print(){
+        for (int i = 1; i <=size; i++) {
+            System.out.print(arr[i]+" ");
+            
+        }
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        Heap h=new Heap();
+        h.insert(50);
+        h.insert(55);
+        h.insert(53);
+        h.insert(52);
+        h.insert(54);
+        h.insert(51);
+        h.print();
+
+
+    }
+
+}
+----------------------------------------------------
+//Heap(Implementing Max Heap)  by ARRAY
+
+public class Heap {
+    private int[] arr;
+    private int size;
+
+    public Heap() {
+        arr = new int[100];
+        arr[0] = -1;
+        size = 0;
+    }
+
+    public void insert(int val) {
+        size = size + 1;
+        int index = size;
+        arr[index] = val;
+        while (index > 1) {
+            int parent = index / 2;
+            if (arr[parent] < arr[index]) {
+                swap(arr, parent, index);
+                index = parent;
+            } else {
+                return;
+
+            }
+
+        }
+
+    }
+
+    public void delete() {
+        if (size == 0) {
+            System.out.println("Heap is Empty");
+            return;
+
+        }
+        int deleteValue = arr[1];
+        arr[1] = arr[size];
+        size--;
+        heapify(arr, size, 1);
+        System.out.println("Deleted Element is : " + deleteValue);
+
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = temp;
+
+    }
+
+    public static void heapify(int[] arr, int n, int i) {
+        int largest = i;
+        int left = 2 * i;
+        int right = 2 * i + 1;
+
+        if (left <= n && arr[largest] < arr[left]) {
+            largest = left;
+
+        }
+        if (right <= n && arr[largest] < arr[right]) {
+            largest = right;
+
+        }
+        if (largest != i) {
+            swap(arr, largest, i);
+            heapify(arr, n, largest);
+
+        }
+
+    }
+
+    public static void heapSort(int[] arr, int n) {
+        int size = n;
+        while (size > 1) {
+            swap(arr, size, 1);
+            size--;
+            heapify(arr, size, 1);
+
+        }
+
+    }
+
+    public void print() {
+        for (int i = 1; i <= size; i++) {
+            System.out.print(arr[i] + " ");
+
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        Heap h = new Heap();
+        h.insert(50);
+        h.insert(55);
+        h.insert(53);
+        h.insert(52);
+        h.insert(54);
+        h.insert(51);
+        h.print();
+
+        System.out.println();
+
+        int[] arr = { -1, 65, 43, 23, 78, 68, 90, 24, 6, 34 };
+        int n = 9;
+        for (int i = n / 2; i > 0; i--) {
+            heapify(arr, n, i);
+
+        }
+        System.out.println("Array is :");
+        for (int i = 1; i <=n; i++) {
+            System.out.print(arr[i]+" ");
+            
+        }
+
+        System.out.println();
+        heapSort(arr, n);
+
+        System.out.println("Sorted Array is :");
+        for (int i = 1; i <=n; i++) {
+            System.out.print(arr[i]+" ");
+            
+        }
+
+        System.out.println();
+        
+        h.delete();
+        h.print();
+
+        
+
+    }
+
+}
+----------------------------------------------------------
+//Matrix 2D array
+public class Main {
+
+    public static void main(String[] args) {
+        int [][]  matrix = {
+            {1,2,3},
+            {4,5},
+            {6}
+            
+        };
+        // Get the number of rows
+        int rows = matrix.length;
+
+        // Get the number of Columns (from first row)
+        int cols = matrix[2].length;
+
+        System.out.println("Matrix has "+ rows + " rows");
+        System.out.println("Matrix has "+ cols + " columns");
+    }
+}
+----------------------------------------------------------
+//Operations in a Matrix
+
+import java.util.Scanner;
+
+public class MatrixPractice {
+
+    // Function to take input of matrix
+    public static int[][] inputMatrix(int rows, int cols, Scanner sc) {
+        int[][] matrix = new int[rows][cols]; // Create a 2D array
+
+        System.out.println("Enter elements of the matrix:");
+        for (int i = 0; i < rows; i++) { // Loop for rows
+            for (int j = 0; j < cols; j++) { // Loop for columns
+                matrix[i][j] = sc.nextInt(); // Read value from user
+            }
+        }
+
+        return matrix; // Return the filled matrix
+    }
+
+    // Function to print matrix
+    public static void printMatrix(int[][] matrix) {
+        int rows = matrix.length;         // Number of rows
+        int cols = matrix[0].length;      // Number of columns
+
+        System.out.println("Matrix is:");
+        for (int i = 0; i < rows; i++) {       // Loop through rows
+            for (int j = 0; j < cols; j++) {   // Loop through columns
+                System.out.print(matrix[i][j] + " "); // Print element
+            }
+            System.out.println(); // New line after each row
+        }
+    }
+
+    // Function to calculate sum of all elements
+    public static int sumOfMatrix(int[][] matrix) {
+        int sum = 0; // Variable to store sum
+
+        for (int i = 0; i < matrix.length; i++) {           // For each row
+            for (int j = 0; j < matrix[0].length; j++) {    // For each column
+                sum += matrix[i][j]; // Add each element to sum
+            }
+        }
+
+        return sum; // Return the total sum
+    }
+
+    // Function to find max element in matrix
+    public static int maxInMatrix(int[][] matrix) {
+        int max = matrix[0][0]; // Assume first element is max
+
+        for (int i = 0; i < matrix.length; i++) {           // For each row
+            for (int j = 0; j < matrix[0].length; j++) {    // For each column
+                if (matrix[i][j] > max) {
+                    max = matrix[i][j]; // Update max if bigger found
+                }
+            }
+        }
+
+        return max; // Return max value
+    }
+
+    // Function to search an element in matrix
+    public static void searchInMatrix(int[][] matrix, int key) {
+        boolean found = false;
+
+        for (int i = 0; i < matrix.length; i++) {           // For each row
+            for (int j = 0; j < matrix[0].length; j++) {    // For each column
+                if (matrix[i][j] == key) {
+                    System.out.println("Element " + key + " found at position (" + i + ", " + j + ")");
+                    found = true;
+                    return; // Exit once found
+                }
+            }
+        }
+
+        if (!found) {
+            System.out.println("Element " + key + " not found in the matrix.");
+        }
+    }
+
+    // Main function
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // Scanner for input
+
+        // Ask user for matrix size
+        System.out.print("Enter number of rows: ");
+        int rows = sc.nextInt();
+
+        System.out.print("Enter number of columns: ");
+        int cols = sc.nextInt();
+
+        // Input matrix
+        int[][] matrix = inputMatrix(rows, cols, sc);
+
+        // Print matrix
+        printMatrix(matrix);
+
+        // Find sum of matrix
+        int sum = sumOfMatrix(matrix);
+        System.out.println("Sum of all elements = " + sum);
+
+        // Find maximum element in matrix
+        int max = maxInMatrix(matrix);
+        System.out.println("Maximum element = " + max);
+
+        // Search element
+        System.out.print("Enter element to search: ");
+        int key = sc.nextInt();
+        searchInMatrix(matrix, key);
+
+        sc.close(); // Close scanner
+    }
+}
+---------------------------------------------------------
+//Matrix Operations 
+
+import java.util.Arrays;
+
+public class MatrixOperations {
+
+    // Matrix Addition
+    public static int[][] addMatrices(int[][] A, int[][] B) {
+        int rows = A.length;
+        int cols = A[0].length;
+
+        int[][] result = new int[rows][cols]; // Create result matrix
+// Add each element of A and B
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                result[i][j] = A[i][j] + B[i][j];
+            }
+        }
+        return result;
+    }
+
+    //Matrix Subtraction
+    public static int[][] subtractMatrices(int[][] A, int[][] B) {
+        int rows = A.length;
+        int cols = A[0].length;
+
+        int[][] result = new int[rows][cols];
+
+        // Subtract each element
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                result[i][j] = A[i][j] - B[i][j];
+            }
+        }
+        return result;
+    }
+
+    //Matrix Multiplication
+    public static int[][] multiplyMatrices(int[][] A, int[][] B) {
+        int rows1 = A.length;
+        int cols1 = A[0].length;
+        int cols2 = B[0].length;
+
+        int[][] result = new int[rows1][cols2];
+
+        // Multiply matrices using standard rule
+        for (int i = 0; i < rows1; i++) {
+            for (int j = 0; j < cols2; j++) {
+                for (int k = 0; k < cols1; k++) {
+                    result[i][j] += A[i][k] * B[k][j];
+                }
+            }
+        }
+
+        return result;
+    }
+
+    //Transpose of a Matrix
+    public static int[][] transposeMatrix(int[][] matrix) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        int[][] transposed = new int[cols][rows];
+
+        // Swap rows with columns
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                transposed[j][i] = matrix[i][j];
+            }
+        }
+
+        return transposed;
+    }
+
+    //Check for Identity Matrix  
+    public static boolean isIdentityMatrix(int[][] matrix) {
+        int n = matrix.length;
+
+        // Check if all diagonal = 1 and others = 0
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == j && matrix[i][j] != 1) return false;
+                else if (i != j && matrix[i][j] != 0) return false;
+            }
+        }
+
+        return true;
+    }
+
+    //Check for Symmetric Matrix
+    public static boolean isSymmetric(int[][] matrix) {
+        int n = matrix.length;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] != matrix[j][i]) return false;
+            }
+        }
+
+        return true;
+    }
+
+    //Rotate Matrix by 90° Clockwise (In-place for square matrix)
+    public static void rotate90(int[][] matrix) {
+        int n = matrix.length;
+
+        // Step 1: Transpose the matrix
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                // Swap matrix[i][j] with matrix[j][i]
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
+            }
+        }
+
+        // Step 2: Reverse each row
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n / 2; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[i][n - 1 - j];
+                matrix[i][n - 1 - j] = temp;
+            }
+        }
+    }
+
+    //Rotate Matrix by 180°
+    public static void rotate180(int[][] matrix) {
+        int n = matrix.length;
+
+        // Reverse each row
+        for (int i = 0; i < n; i++) {
+            int left = 0, right = n - 1;
+            while (left < right) {
+                int temp = matrix[i][left];
+                matrix[i][left] = matrix[i][right];
+                matrix[i][right] = temp;
+                left++;
+                right--;
+            }
+        }
+
+        // Reverse the rows order (top to bottom)
+        int top = 0, bottom = n - 1;
+        while (top < bottom) {
+            int[] temp = matrix[top];
+            matrix[top] = matrix[bottom];
+            matrix[bottom] = temp;
+            top++;
+            bottom--;
+        }
+    }
+// Helper to print matrix
+    public static void printMatrix(int[][] matrix) {
+        for (int[] row : matrix) {
+            System.out.println(Arrays.toString(row));
+        }
+        System.out.println();
+    }
+
+    //MAIN FUNCTION
+    public static void main(String[] args) {
+
+        int[][] A = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+        int[][] B = {
+            {9, 8, 7},
+            {6, 5, 4},
+            {3, 2, 1}
+        };
+
+        System.out.println("Matrix A:");
+        printMatrix(A);
+
+        System.out.println("Matrix B:");
+        printMatrix(B);
+
+        //  Matrix Addition
+        System.out.println("Addition of A and B:");
+        int[][] added = addMatrices(A, B);
+        printMatrix(added);
+
+        //  Matrix Subtraction
+        System.out.println("Subtraction of A and B:");
+        int[][] subtracted = subtractMatrices(A, B);
+        printMatrix(subtracted);
+
+        //  Matrix Multiplication
+        System.out.println("Multiplication of A and B:");
+        int[][] multiplied = multiplyMatrices(A, B);
+        printMatrix(multiplied);
+
+        //  Transpose
+        System.out.println("Transpose of A:");
+        int[][] transposed = transposeMatrix(A);
+        printMatrix(transposed);
+
+        //  Identity Matrix Check
+        int[][] identity = {
+            {1, 0, 0},
+            {0, 1, 0},
+            {0, 0, 1}
+        };
+
+        System.out.println("Is Identity Matrix? " + isIdentityMatrix(identity)); // true
+
+        //  Symmetric Matrix Check
+        int[][] symmetric = {
+            {1, 2, 3},
+            {2, 5, 6},
+            {3, 6, 9}
+        };
+        System.out.println("Is Symmetric Matrix? " + isSymmetric(symmetric)); // true
+
+        //  Rotate 90°
+        System.out.println("Matrix A rotated 90° clockwise:");
+        rotate90(A);
+        printMatrix(A);
+
+        //  Rotate 180°
+        System.out.println("Matrix B rotated 180°:");
+        rotate180(B);
+        printMatrix(B);
+    }
+}
+---------------------------------------------------------
+
+//https://leetcode.com/problems/number-of-islands/description/
+class Solution {
+    public int numIslands(char[][] grid) {
+
+        if (grid==null || grid.length==0) {
+            return 0;
+            
+        }
+        int count=0;
+        int rows=grid.length;
+        int cols=grid[0].length;
+
+        for (int i = 0; i <rows; i++) {
+            for (int j = 0; j <cols; j++) {
+                if (grid[i][j]=='1') {
+                    count++;
+                    dfs(grid,i,j);
+                    
+                }
+                
+            }
+            
+        }
+        return count;
+        
+    }
+
+    private void dfs(char[][] grid,int i,int j){
+        int rows=grid.length;
+        int cols=grid[0].length;
+        if (i<0 || j<0 || i>=rows || j>=cols || grid[i][j]=='0') {
+            return;
+            
+        }
+
+        grid[i][j]='0';
+        dfs(grid, i-1, j);//up
+        dfs(grid, i+1, j);//down
+        dfs(grid, i, j-1);//left
+        dfs(grid, i, j+1);//right
+
+
+    }
+
+}
